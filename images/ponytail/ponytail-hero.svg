@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">同一个日期选择器：335 行与 10 行</title>
+  <desc id="desc">没有 Ponytail 时 AI 手写 335 行日期选择器，使用 Ponytail 后复用现有组件和浏览器原生日期输入，只需 10 行。</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1f3b33" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#14231f" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="#f5f0e5"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="1090" cy="80" r="150" fill="#e65b2f" opacity=".12"/>
+  <circle cx="95" cy="610" r="130" fill="#1f6f5f" opacity=".12"/>
+  <text x="72" y="72" font-family="Consolas, monospace" font-size="18" letter-spacing="4" fill="#1f6f5f">PONYTAIL · AI CODING RULE</text>
+  <text x="72" y="142" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="52" font-weight="700" fill="#14231f">一个日期选择器，AI 写了多少行？</text>
+  <text x="72" y="190" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="23" fill="#52635d">不是比谁会写，而是先问：现有的东西能不能直接用。</text>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="236" width="490" height="300" rx="24" fill="#fffaf0" stroke="#d9d0bd"/>
+    <rect x="638" y="236" width="490" height="300" rx="24" fill="#e8f3ed" stroke="#a9cbbd"/>
+  </g>
+  <rect x="104" y="268" width="158" height="36" rx="18" fill="#f1d7cd"/>
+  <text x="183" y="292" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#9e3e21">没有 Ponytail</text>
+  <text x="104" y="366" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="58" font-weight="800" fill="#14231f">335 行</text>
+  <text x="104" y="407" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="19" fill="#52635d">手写日历 · 动画 · 主题 · 国际化</text>
+  <g stroke="#bfb5a3" stroke-width="8" stroke-linecap="round">
+    <line x1="106" y1="446" x2="432" y2="446"/><line x1="106" y1="466" x2="506" y2="466"/>
+    <line x1="106" y1="486" x2="386" y2="486"/><line x1="106" y1="506" x2="468" y2="506"/>
+  </g>
+
+  <rect x="670" y="268" width="158" height="36" rx="18" fill="#c7e3d7"/>
+  <text x="749" y="292" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" font-weight="700" fill="#155646">用了 Ponytail</text>
+  <text x="670" y="366" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="58" font-weight="800" fill="#14231f">10 行</text>
+  <text x="670" y="407" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="19" fill="#52635d">复用项目 Input + 浏览器原生能力</text>
+  <rect x="670" y="438" width="402" height="54" rx="12" fill="#14231f"/>
+  <text x="694" y="473" font-family="Consolas, monospace" font-size="20" fill="#f5f0e5">&lt;input type="date"&gt;</text>
+
+  <path d="M 575 386 L 620 386" stroke="#e65b2f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 608 370 L 626 386 L 608 402" fill="none" stroke="#e65b2f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="72" y="578" width="1056" height="58" rx="16" fill="#14231f"/>
+  <text x="600" y="614" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#f5f0e5">Ponytail 的第一问：这东西真的需要存在吗？</text>
+</svg>

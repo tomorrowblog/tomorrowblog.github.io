@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Ponytail 最新基准数据</title>
+  <desc id="desc">相对无技能基线，代码量减少 53%，时间减少 41%，成本减少 26%，输出 Token 减少 45%；高风险逻辑测试率 98%，无技能为 68%。</desc>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#17352c" opacity=".08"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#13231f" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1200" height="700" fill="#f5f0e5"/>
+  <rect width="1200" height="700" fill="url(#dots)"/>
+  <text x="70" y="68" font-family="Consolas, monospace" font-size="17" letter-spacing="4" fill="#1f6f5f">BENCHMARK · 39 TASKS · 5 RUNS</text>
+  <text x="70" y="128" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="48" font-weight="700" fill="#14231f">更少代码，不是更少验证</text>
+  <text x="70" y="166" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" fill="#5d6c66">同一 Agent，同一任务，开与不开 Ponytail 的对比。</text>
+
+  <g filter="url(#shadow)"><rect x="70" y="205" width="640" height="382" rx="24" fill="#fffaf0" stroke="#d9d0bd"/><rect x="742" y="205" width="388" height="382" rx="24" fill="#e8f3ed" stroke="#a9cbbd"/></g>
+  <text x="102" y="248" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#14231f">相对基线的资源消耗</text>
+  <g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+    <text x="102" y="300" font-size="18" fill="#3f514b">代码量</text><rect x="210" y="280" width="390" height="28" rx="14" fill="#e3ddd0"/><rect x="210" y="280" width="183" height="28" rx="14" fill="#e65b2f"/><text x="615" y="302" text-anchor="end" font-size="19" font-weight="700" fill="#9e3e21">−53%</text>
+    <text x="102" y="356" font-size="18" fill="#3f514b">交付时间</text><rect x="210" y="336" width="390" height="28" rx="14" fill="#e3ddd0"/><rect x="210" y="336" width="230" height="28" rx="14" fill="#d07b42"/><text x="615" y="358" text-anchor="end" font-size="19" font-weight="700" fill="#9e3e21">−41%</text>
+    <text x="102" y="412" font-size="18" fill="#3f514b">成本</text><rect x="210" y="392" width="390" height="28" rx="14" fill="#e3ddd0"/><rect x="210" y="392" width="289" height="28" rx="14" fill="#1f6f5f"/><text x="615" y="414" text-anchor="end" font-size="19" font-weight="700" fill="#155646">−26%</text>
+    <text x="102" y="468" font-size="18" fill="#3f514b">输出 Token</text><rect x="210" y="448" width="390" height="28" rx="14" fill="#e3ddd0"/><rect x="210" y="448" width="215" height="28" rx="14" fill="#2e8a75"/><text x="615" y="470" text-anchor="end" font-size="19" font-weight="700" fill="#155646">−45%</text>
+  </g>
+  <text x="102" y="535" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="15" fill="#7b8782">来源：项目 README 的 v5 基准测试；实际结果会随项目与任务变化。</text>
+
+  <text x="774" y="248" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#14231f">质量没有一起被砍掉</text>
+  <text x="774" y="316" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="58" font-weight="800" fill="#155646">98%</text>
+  <text x="774" y="352" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18" fill="#3f514b">高风险逻辑带测试</text>
+  <text x="774" y="382" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#72817b">无 Ponytail：68%</text>
+  <line x1="774" y1="410" x2="1098" y2="410" stroke="#b7d1c6"/>
+  <text x="774" y="466" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="46" font-weight="800" fill="#155646">30 / 30</text>
+  <text x="774" y="502" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18" fill="#3f514b">6 类安全任务全部通过</text>
+  <text x="774" y="536" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" fill="#72817b">注入、路径穿越、伪造令牌等</text>
+
+  <rect x="70" y="618" width="1060" height="52" rx="14" fill="#14231f"/>
+  <text x="600" y="651" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#f5f0e5">永远不省：信任边界校验 · 数据丢失处理 · 安全 · 可访问性</text>
+</svg>
