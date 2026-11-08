@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T12:03:42.623Z</updated>
+  <updated>2026-11-08T12:14:59.300Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CC Switch 的对手来了：Magpie 不帮你改配置，而是让你不用再改</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/24101/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/24101/</id>
+    <published>2026-11-08T12:20:00.000Z</published>
+    <updated>2026-11-08T12:14:59.300Z</updated>
+    
+    <content type="html"><![CDATA[<p>下午三点，Claude 的额度用完了。</p><p>你打开配置文件，把 key 换成另一个账号的。半小时后 Codex 也见底，再换一个。Gemini CLI 那边还挂着一个早就过期的 key，你懒得管了。</p><p>这是同时用好几个 AI 编程工具的人，每天都在干的事。问题不在工具不好用，在于工具之间那层管理，一直没人管。</p><blockquote><p><strong>版本提示：</strong> 截至 2026 年 11 月 8 日，Magpie 最新 Release 为 <code>v0.1.3327</code>。项目迭代很快，安装命令和界面可能变化，请以官方文档为准。</p><p><strong>安全提示：</strong> 安装脚本会下载并运行程序，也会改写 Agent 配置；执行前先审查脚本，并备份相关配置文件。订阅账号发现功能会读取登录文件和系统钥匙串，敏感环境建议关闭。API key 和订阅凭据不要发给不可信网关。</p></blockquote><h2 id="CC-Switch-解决的是“改配置”"><a href="#CC-Switch-解决的是“改配置”" class="headerlink" title="CC Switch 解决的是“改配置”"></a>CC Switch 解决的是“改配置”</h2><p>CC Switch 试过管这件事。思路很直接：把 Claude Code 的配置文件接过来，界面上点一下就能换 provider，不用自己动手改 JSON。</p><p>好用，这点得承认。但它的天花板也摆在那儿。</p><p>它管的其实是配置文件本身。Claude Code 是 Claude Code 的配置，Codex 是 Codex 的配置，格式不同、key 各管各的，你还是在几个文件之间打转。而且它的思路是“让你改配置更快”，不是“让你不用再改配置”。下午三点换 key 这件事，它没帮你取消，只是让你换得顺手一点。</p><h2 id="Magpie-把网关插了进来"><a href="#Magpie-把网关插了进来" class="headerlink" title="Magpie 把网关插了进来"></a>Magpie 把网关插了进来</h2><p>最近冒出来的 <a href="https://github.com/yetone/magpie">Magpie</a> 走了另一条路。它不管“怎么改配置”，而是在所有 Agent 和所有模型中间，插了一层本地网关。</p><p>过去的路径是：Agent → 各自的配置文件 → 绑定的模型。现在变成：Agent → Magpie → 任意厂商 → 任意模型。</p><p>Magpie 在本地跑一个网关，地址 <code>127.0.0.1:3425</code>，只监听本机回环，外网碰不到。然后它把每个 Agent 的配置改成指向这个地址：Claude Code 的 <code>ANTHROPIC_BASE_URL</code> 变成 <code>http://127.0.0.1:3425</code>，原来填 key 的位置，直接写一个词，magpie。</p><p>看着有点怪，但重点在这儿：真正的 API key 不上桌。所有厂商的 key 都存在 Magpie 自己的配置里，Agent 拿到的只是一个指向本机网关的地址加一个占位符。你的 key 不会再散落在七八个配置文件里。</p><h2 id="更值钱的部分：订阅不再是孤岛"><a href="#更值钱的部分：订阅不再是孤岛" class="headerlink" title="更值钱的部分：订阅不再是孤岛"></a>更值钱的部分：订阅不再是孤岛</h2><p>如果只是统一了入口，那还只是省事。Magpie 真正有意思的，是它能把你的订阅盘活。</p><p>你买的 Claude 订阅，以前只能在 Claude Code 里用；ChatGPT 的订阅，锁死在 Codex 里。每个订阅都是一座孤岛。</p><p>Magpie 的做法是去读这些 Agent 自己的登录状态，Claude Code 和 Codex 的配置文件、系统的钥匙串，读到之后就把这个订阅变成网关里的一个 provider。于是 Claude Code 可以调用你的 ChatGPT 套餐，Codex 也能反过来用你的 Claude 订阅，不用再为每个工具单独买一份 API。</p><p>隐私这块留了开关。不想被读到登录信息，设置里关掉 Subscription accounts，或者跑一句 <code>magpie accounts discovery off</code>，单次运行用 <code>MAGPIE_NO_ACCOUNTS=1</code>。API key 类型的 provider 不受影响，照常能用。</p><p>不同 Agent 说的是不同的话。Claude Code 说 Anthropic Messages，Codex 说 OpenAI Responses，Gemini CLI 说 Gemini。同一个模型，接口形状不一定一样。Magpie 的网关把这四套协议都实现了，请求进来之后按需翻译，流式输出、工具调用、推理过程都跟着转。所以 Codex 也能用上只提供 Anthropic 接口的模型，反过来也一样。</p><p>配额也被接管了。你可以把几个账号或几个模型编成一个“路由组”，设置好策略：优先用哪个、用完怎么轮、按用量怎么分。额度耗尽的瞬间，请求自动落到下一个账号，Agent 那边完全无感，不弹错误。官方管这叫“静默切换”。</p><p>剩下的是一些顺手的设计。Profiles 能把每个 Agent 当前的配置存成一个名字，比如“省钱模式”“猛干模式”，一键整体切回来。Import 能从 CC Switch 直接导入已有的 provider，迁移不用重头填。它本身是一个轻量的 Go 程序，macOS、Linux、Windows 都能跑，还支持 Docker 和 NAS。支持的 Agent 列表很长，Claude Code、Codex、Gemini CLI、OpenCode、Cursor CLI、Copilot、Cline、Devin 这些常见的都在里面，任何能接受 base URL 的工具也能手动接进来。</p><h2 id="一条命令，三步上手"><a href="#一条命令，三步上手" class="headerlink" title="一条命令，三步上手"></a>一条命令，三步上手</h2><p>装起来就一条：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://usemagpie.ai/install.sh | sh</span><br></pre></td></tr></table></figure><p>也可以用 <code>go install github.com/yetone/magpie@latest</code> 或者 Docker 镜像（<code>ghcr.io/yetone/magpie</code>）。装完三步：打开 Magpie 加一个 provider，选预设粘贴 key 或者用订阅登录；到 Agents 页面给每个工具选模型；开个新会话就生效。命令行党也有对应的命令，比如 <code>magpie claude deepseek/deepseek-v4-pro</code>，就是把 Claude Code 的模型切到 DeepSeek。</p><h2 id="有几个坑先说清楚"><a href="#有几个坑先说清楚" class="headerlink" title="有几个坑先说清楚"></a>有几个坑先说清楚</h2><p>最容易被忽略的一点是，它对你可能根本没用。如果你只用一个 Agent，而那个 Agent 带着厂商自己的套餐，多装一个后台常驻的网关纯属负担。它是给同时用好几个工具、还攒了一堆订阅的人准备的。</p><p>另外 Codex 的模型列表是启动时读的，通过 Magpie 切完模型，得重启它才认。</p><p>隐私上有个细节：它每天上报一次使用统计，介意的话在设置里关掉，或者设 <code>DO_NOT_TRACK=1</code>。</p><p>最后，这个仓库不收 PR，只有维护者能提交，想反馈问题得走 Discord。</p><p>说到底，CC Switch 和 Magpie 不是谁替代谁。一个是你顺手打开的桌面工具，把配置改得更快；一个是常驻在后台的网关，把“改配置”这件事直接从流程里拿掉了。站位不同，解决的问题也就不一样。</p><p>你电脑里现在挂着几个 AI 编程工具？有没有过额度用完、手忙脚乱切 key 的时候？评论区聊聊。</p><p>项目地址：<a href="https://github.com/yetone/magpie">https://github.com/yetone/magpie</a></p>]]></content>
+    
+    
+    <summary type="html">Magpie 通过本地 API 网关统一 Claude Code、Codex 等 AI 编程工具，集中管理模型、密钥、订阅、路由与配置切换。</summary>
+    
+    
+    
+    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="AI编程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Magpie" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Magpie/"/>
+    
+    <category term="API网关" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/API%E7%BD%91%E5%85%B3/"/>
+    
+    <category term="Claude Code" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Claude-Code/"/>
+    
+    <category term="Codex" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Codex/"/>
+    
+  </entry>
   
   <entry>
     <title>Obsidian 下载即吃灰？装上这4个插件，毛坯房秒变精装房</title>
@@ -556,33 +585,6 @@
     <category term="PicList" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/PicList/"/>
     
     <category term="jsDelivr" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/jsDelivr/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git 入门：版本控制，高效协作</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/58421/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/58421/</id>
-    <published>2026-11-08T06:15:00.000Z</published>
-    <updated>2026-11-08T06:13:33.546Z</updated>
-    
-    <content type="html"><![CDATA[<p>版本控制是软件开发中的重要环节，Git 作为目前最流行的版本控制工具，可以帮助我们更好地管理代码、协作开发。 本文将带你快速入门 Git，掌握基本操作。</p><h2 id="什么是-Git？"><a href="#什么是-Git？" class="headerlink" title="什么是 Git？"></a>什么是 Git？</h2><p>Git 是一个分布式版本控制系统。 它可以记录文件的修改历史，方便我们回溯到之前的版本，或者合并不同分支的代码。<br><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250410172857616.png" alt="image.png"></p><h2 id="Git-的基本概念"><a href="#Git-的基本概念" class="headerlink" title="Git 的基本概念"></a>Git 的基本概念</h2><ul><li><strong>仓库（Repository）：</strong> 存放所有版本信息的地方，可以理解为一个目录，包含了所有文件和历史记录。</li><li><strong>工作区（Working Directory）：</strong> 你电脑中实际存放文件的目录。</li><li><strong>暂存区（Staging Area）：</strong> 用于存放你想要提交的修改。</li><li><strong>提交（Commit）：</strong> 将暂存区中的修改保存到仓库中。</li><li><strong>分支（Branch）：</strong> 独立的代码线路，可以并行开发不同的功能。</li><li><strong>合并（Merge）：</strong> 将不同分支的代码合并到一起。</li></ul><h2 id="Git-的安装"><a href="#Git-的安装" class="headerlink" title="Git 的安装"></a>Git 的安装</h2><p>在开始之前，你需要先安装 Git。 你可以从 Git 官网（<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a>）下载适合你系统的版本。<br><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250410172112026.png" alt="image.png"></p><h2 id="Git-的基本操作"><a href="#Git-的基本操作" class="headerlink" title="Git 的基本操作"></a>Git 的基本操作</h2><h3 id="1-初始化仓库"><a href="#1-初始化仓库" class="headerlink" title="1. 初始化仓库"></a>1. 初始化仓库</h3><p>在你的项目目录下，打开终端，输入以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>这会在当前目录下创建一个 <code>.git</code> 目录，这就是你的 Git 仓库。</p><h3 id="2-添加文件到暂存区"><a href="#2-添加文件到暂存区" class="headerlink" title="2. 添加文件到暂存区"></a>2. 添加文件到暂存区</h3><p>使用以下命令将文件添加到暂存区：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;文件名&gt;</span><br><span class="line"><span class="comment"># 例如 git add index.html</span></span><br></pre></td></tr></table></figure><p>要添加所有修改过的文件，可以使用：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><h3 id="3-提交修改"><a href="#3-提交修改" class="headerlink" title="3. 提交修改"></a>3. 提交修改</h3><p>使用以下命令提交修改：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">&quot;提交信息&quot;</span></span><br><span class="line"><span class="comment"># 例如 git commit -m &quot;完成用户登录功能&quot;</span></span><br></pre></td></tr></table></figure><p>提交信息应该清晰地描述本次提交的内容。</p><h3 id="4-查看状态"><a href="#4-查看状态" class="headerlink" title="4. 查看状态"></a>4. 查看状态</h3><p>使用以下命令查看当前仓库的状态：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><p>它可以告诉你哪些文件被修改了，哪些文件在暂存区，哪些文件没有被跟踪。</p><h3 id="5-查看历史记录"><a href="#5-查看历史记录" class="headerlink" title="5. 查看历史记录"></a>5. 查看历史记录</h3><p>使用以下命令查看提交历史：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span></span><br></pre></td></tr></table></figure><p>它可以显示每次提交的作者、时间和提交信息。</p><h3 id="6-创建和切换分支"><a href="#6-创建和切换分支" class="headerlink" title="6. 创建和切换分支"></a>6. 创建和切换分支</h3><p>使用以下命令创建一个新的分支：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch &lt;分支名&gt;</span><br><span class="line"><span class="comment"># 例如 git branch feature/login</span></span><br></pre></td></tr></table></figure><p>使用以下命令切换到指定分支：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;分支名&gt;</span><br><span class="line"><span class="comment"># 例如 git checkout feature/login</span></span><br></pre></td></tr></table></figure><h3 id="7-合并分支"><a href="#7-合并分支" class="headerlink" title="7. 合并分支"></a>7. 合并分支</h3><p>首先切换到要合并的目标分支，然后使用以下命令合并指定分支：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;要合并的分支名&gt;</span><br><span class="line"><span class="comment"># 例如 git checkout main</span></span><br><span class="line"><span class="comment"># git merge feature/login</span></span><br></pre></td></tr></table></figure><h2 id="Git-常用命令速查"><a href="#Git-常用命令速查" class="headerlink" title="Git 常用命令速查"></a>Git 常用命令速查</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td><code>git init</code></td><td>初始化仓库</td></tr><tr><td><code>git add</code></td><td>添加文件到暂存区</td></tr><tr><td><code>git commit</code></td><td>提交修改</td></tr><tr><td><code>git status</code></td><td>查看状态</td></tr><tr><td><code>git log</code></td><td>查看历史记录</td></tr><tr><td><code>git branch</code></td><td>创建、查看分支</td></tr><tr><td><code>git checkout</code></td><td>切换分支</td></tr><tr><td><code>git merge</code></td><td>合并分支</td></tr><tr><td><code>git pull</code></td><td>从远程仓库拉取最新代码</td></tr><tr><td><code>git push</code></td><td>将本地代码推送到远程仓库</td></tr></tbody></table><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Git 是一个强大的工具，掌握这些基本操作，你就可以开始使用 Git 管理你的代码了。 在实际开发中，你还会遇到更多复杂的情况，需要不断学习和实践。 希望这篇文章能帮助你入门 Git，开启高效协作之旅！</p>]]></content>
-    
-    
-    <summary type="html">Git 入门教程：了解仓库、工作区、暂存区和分支等核心概念，掌握初始化、提交、查看状态、分支合并与远程推送等常用操作。</summary>
-    
-    
-    
-    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Git" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Git/"/>
-    
-    <category term="版本控制" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
-    
-    <category term="团队协作" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/"/>
-    
-    <category term="开发工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   

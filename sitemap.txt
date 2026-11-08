@@ -1,3 +1,4 @@
+https://blog.xiaomingclassmate.dpdns.org/posts/24101/
 https://blog.xiaomingclassmate.dpdns.org/posts/23101/
 https://blog.xiaomingclassmate.dpdns.org/posts/22101/
 https://blog.xiaomingclassmate.dpdns.org/posts/21101/
@@ -147,6 +148,10 @@ https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%92%E4%BB%B6/
 https://blog.xiaomingclassmate.dpdns.org/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/
 https://blog.xiaomingclassmate.dpdns.org/tags/Web-Clipper/
 https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
+https://blog.xiaomingclassmate.dpdns.org/tags/Magpie/
+https://blog.xiaomingclassmate.dpdns.org/tags/API%E7%BD%91%E5%85%B3/
+https://blog.xiaomingclassmate.dpdns.org/tags/Claude-Code/
+https://blog.xiaomingclassmate.dpdns.org/tags/Codex/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%89%E5%8D%93/
 https://blog.xiaomingclassmate.dpdns.org/categories/VPS/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/

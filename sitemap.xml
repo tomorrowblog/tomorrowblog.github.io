@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/24101/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/posts/23101/</loc>
     
     <lastmod>2026-11-08</lastmod>
@@ -1121,6 +1130,34 @@
   
   <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Magpie/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/API%E7%BD%91%E5%85%B3/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Claude-Code/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Codex/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
