@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T11:40:08.313Z</updated>
+  <updated>2026-11-08T11:48:26.794Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Karpathy 的 4 条守则：80 行让 AI 编码从“翻车”变“靠谱”</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/22101/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/22101/</id>
+    <published>2026-11-08T12:00:00.000Z</published>
+    <updated>2026-11-08T11:48:26.794Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20260726151450005.png" alt="image.png"></p><blockquote><p><strong>版本提示：</strong> 标题中的“80 行”来自文章原始表述；截至 2026 年 11 月 8 日，仓库主分支的 <code>CLAUDE.md</code> 为 66 行，规则结构未变，安装时请以仓库当前文件为准。</p><p><strong>使用提示：</strong> 在项目根目录下载前，先确认不会覆盖已有的 <code>CLAUDE.md</code>，必要时先备份。</p></blockquote><p>你有没有遇到过这种情况？</p><p>让 AI “优化搜索速度”，它默默选了一种理解，埋头写了 200 行——结果优化的方向根本不是你要的。</p><p>让 AI “修一个空 email 的 bug”，它顺手加了 type hint、改了注释、重构了相邻函数——bug 修了，但 PR diff 多了 30 行无关改动。</p><p>Karpathy 早就看透了这件事。他在推文里指出，LLM 编码有三类典型失败：替你做错误假设、过度复杂化代码、顺手改不该改的东西。</p><p>根源只有一个：LLM 不管理自己的认知不确定性。RLHF 训练让模型学到”给出动作 &gt; 提出问题”、”写完整 &gt; 写最小”，两个加起来，就是 Karpathy 列举的所有翻车行为。</p><p>有人把这 4 条守则落成了一份 80 行的 CLAUDE.md。不是空泛的”写好代码”，而是对症下药的显式约束。</p><p>项目地址：<a href="https://github.com/multica-ai/andrej-karpathy-skills">https://github.com/multica-ai/andrej-karpathy-skills</a></p><h2 id="Think-Before-Coding：不确定就停下来问"><a href="#Think-Before-Coding：不确定就停下来问" class="headerlink" title="Think Before Coding：不确定就停下来问"></a>Think Before Coding：不确定就停下来问</h2><p>多种解释存在时，列出来，不要默默挑一个。不清楚就指出不清楚的是什么，然后问。</p><p>“优化搜索速度”——快的定义是响应时间、并发吞吐还是感知速度？先问清楚再动手。</p><p>副作用：agent 会反问更多小事。需要加一条 escape hatch：显然的单行修改、拼写错误，跳过本规则。</p><h2 id="Simplicity-First：100-行能写完的事别堆成-1000-行"><a href="#Simplicity-First：100-行能写完的事别堆成-1000-行" class="headerlink" title="Simplicity First：100 行能写完的事别堆成 1000 行"></a>Simplicity First：100 行能写完的事别堆成 1000 行</h2><p>不写任务以外的功能，不为一次性代码做抽象，不加没被要求的灵活性。</p><p>计算折扣：错的版本祭出策略模式 + 抽象基类 + 工厂方法，80 行。对的版本是 5 行纯函数。</p><p>过度复杂不是错——它们符合设计模式和最佳实践。问题在于时机：不需要的时候引入复杂度，就是浪费。</p><h2 id="Surgical-Changes：只改用户要求的，不改邻近的"><a href="#Surgical-Changes：只改用户要求的，不改邻近的" class="headerlink" title="Surgical Changes：只改用户要求的，不改邻近的"></a>Surgical Changes：只改用户要求的，不改邻近的</h2><p>每一行修改都要能追溯到用户的请求。不”改进”相邻代码，不重构没坏的东西，不删原本就存在的死代码。</p><p>修空 email 的 bug——只改直接相关的 3 行。不是顺便加校验、改注释、加 docstring。</p><p>这条收益最快。装上后，PR diff 第一周就明显变干净。</p><h2 id="Goal-Driven-Execution：给成功标准，让它自己跑"><a href="#Goal-Driven-Execution：给成功标准，让它自己跑" class="headerlink" title="Goal-Driven Execution：给成功标准，让它自己跑"></a>Goal-Driven Execution：给成功标准，让它自己跑</h2><p>不要说”Add validation”，说”Write tests for invalid inputs, then make them pass”。不要说”Fix the bug”，说”Write a test that reproduces it, then make it pass”。</p><p>把指令式动词翻译成可验证目标。多步任务每步配 verify，agent 自己拆 plan、自己验证，回来检查的频率显著下降。</p><h2 id="为什么-80-行就能管这么多"><a href="#为什么-80-行就能管这么多" class="headerlink" title="为什么 80 行就能管这么多"></a>为什么 80 行就能管这么多</h2><p>四条都是元规则——教 agent 决策框架，不是穷举”不要做什么”。元规则可泛化、不会过期、agent 在新情境下能自己推理。</p><p>规则跟症状一一对应：假设漂移 → Think Before Coding，复杂度膨胀 → Simplicity First，scope creep → Surgical Changes，无可验证终止 → Goal-Driven Execution。对症下药，所以短、准、副作用小。</p><p>GitHub 地址：<a href="https://github.com/multica-ai/andrej-karpathy-skills">https://github.com/multica-ai/andrej-karpathy-skills</a></p><p>安装只需一行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fL https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CLAUDE.md -o CLAUDE.md</span><br></pre></td></tr></table></figure><p>验证是否生效：给 agent 一个故意有歧义的任务，比如”帮我加一下 export 功能”。装上后它应该反问”export 指哪种？”——如果直接开始写代码，说明没生效。</p><p>80 行，四条守则，对症下药。不是教 agent “努力写好代码”，而是堵住它每次会话都会犯的毛病。这才是让 AI 编码从翻车变靠谱的起点。</p>]]></content>
+    
+    
+    <summary type="html">用 Karpathy 提出的 4 条 AI 编码守则约束代理：先问清楚、保持简单、只改必要代码，并用可验证目标驱动执行。</summary>
+    
+    
+    
+    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Karpathy" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Karpathy/"/>
+    
+    <category term="AI编程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="CLAUDE.md" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/CLAUDE-md/"/>
+    
+    <category term="代码质量" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+    
+    <category term="提示词工程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>终于找到它了！Umi-OCR：这个离线文字识别神器，免费、批量、超安全！</title>
