@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T07:09:56.210Z</updated>
+  <updated>2026-11-08T07:19:51.943Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>it-tools：程序员的瑞士军刀，你的在线工具箱！</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/42618/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/42618/</id>
+    <published>2026-11-08T07:30:00.000Z</published>
+    <updated>2026-11-08T07:19:51.943Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250521211814163.png" alt="it-tools 在线工具箱"></p><p>写代码时经常需要临时处理 JSON、Base64、URL 编码、时间戳或哈希值。如果每次都打开不同网站，不仅麻烦，还可能把敏感数据交给不可信的在线服务。</p><p><strong>it-tools</strong> 把大量常用开发工具集中在一个界面中，既可以直接访问公开站点，也可以用自己的服务器或 NAS 部署。它就像一个程序员专用的“瑞士军刀”。</p><blockquote><p>**版本提示：**文中截图和 Docker 示例来自 2025 年 5 月，软件界面和镜像版本可能已经变化。请使用官方最新稳定版，并以项目文档和实际界面为准。生产环境不建议长期使用 <code>latest</code>，应固定具体版本并定期升级。</p></blockquote><p>项目地址：<a href="https://github.com/CorentinTh/it-tools">https://github.com/CorentinTh/it-tools</a></p><h2 id="一、it-tools-的核心功能"><a href="#一、it-tools-的核心功能" class="headerlink" title="一、it-tools 的核心功能"></a>一、it-tools 的核心功能</h2><ul><li><strong>JSON 格式化</strong>：格式化、压缩和校验 JSON；</li><li><strong>Base64 编码&#x2F;解码</strong>：处理接口参数和文本数据；</li><li><strong>URL 编码&#x2F;解码</strong>：处理中文、空格和特殊字符；</li><li><strong>时间戳转换</strong>：在 Unix 时间戳和日期时间之间转换；</li><li><strong>哈希计算</strong>：生成 MD5、SHA-1、SHA-256 等摘要；</li><li><strong>UUID 生成</strong>：生成测试数据或唯一标识；</li><li><strong>文本比较</strong>：查看两段文本的差异；</li><li><strong>二维码生成</strong>：把 URL 或文本生成二维码；</li><li><strong>颜色转换</strong>：查看 RGB、HEX 等颜色值；</li><li><strong>Markdown 预览</strong>：在线编辑和预览 Markdown；</li><li><strong>网络与开发辅助</strong>：IPv4 子网计算、Crontab 表达式、HTML 编码等。</li></ul><p>哈希值主要用于数据校验和内容摘要，不是加密，也不能用来保护密码或敏感数据。</p><h2 id="二、it-tools-的优势"><a href="#二、it-tools-的优势" class="headerlink" title="二、it-tools 的优势"></a>二、it-tools 的优势</h2><ul><li><strong>工具集中</strong>：不用在多个小网站之间来回切换；</li><li><strong>开源可自建</strong>：可以部署在自己的服务器或 NAS；</li><li><strong>界面简洁</strong>：功能分类清楚，搜索后直接使用；</li><li><strong>跨平台</strong>：有浏览器即可，不依赖特定操作系统；</li><li><strong>适合内网</strong>：自建后可在局域网中使用，减少外网依赖。</li></ul><p>公开在线版适合普通格式转换和临时测试。涉及密钥、客户资料、内部配置或未公开代码时，优先使用自建实例，并确认服务是否在本地处理数据。</p><h2 id="三、直接使用在线版"><a href="#三、直接使用在线版" class="headerlink" title="三、直接使用在线版"></a>三、直接使用在线版</h2><p>打开：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://it-tools.tech/</span><br></pre></td></tr></table></figure><p>选择需要的工具，输入或粘贴内容，即可查看处理结果。</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250521213817378.png" alt="it-tools 工具列表"></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250521213932311.png" alt="it-tools JSON 格式化工具"></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250521214152317.png" alt="it-tools 时间戳转换工具"></p><p>如果公开站点访问慢、无法访问，或者不希望数据经过外部网站，可以自行部署。</p><h2 id="四、使用-Docker-部署"><a href="#四、使用-Docker-部署" class="headerlink" title="四、使用 Docker 部署"></a>四、使用 Docker 部署</h2><p>服务器上可以直接运行：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name it-tools \</span><br><span class="line">  --restart unless-stopped \</span><br><span class="line">  -p 8080:80 \</span><br><span class="line">  corentinth/it-tools:latest</span><br></pre></td></tr></table></figure><p>然后访问：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://服务器IP:8080</span><br></pre></td></tr></table></figure><p>这只是快速测试命令。长期使用时，建议到项目的 Releases 或镜像页面查找具体版本号，把 <code>latest</code> 替换成固定版本，避免某次自动更新后界面或功能发生变化。</p><h2 id="五、使用-Docker-Compose-部署"><a href="#五、使用-Docker-Compose-部署" class="headerlink" title="五、使用 Docker Compose 部署"></a>五、使用 Docker Compose 部署</h2><p>创建 <code>docker-compose.yml</code>：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">it-tools:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">corentinth/it-tools:latest</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;8082:80&quot;</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">it-tools</span></span><br></pre></td></tr></table></figure><p>如果 <code>8082</code> 已被占用，改成其他未使用端口即可。</p><p>在 NAS 或 Docker 管理工具中新建 Compose 项目，把上面的内容粘贴进去并启动。</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250522101124264.png" alt="在 NAS 中创建 it-tools Compose 项目"></p><p>启动后，在浏览器访问：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://NAS的局域网IP:8082</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250522102243527.png" alt="it-tools 部署完成后的界面"></p><h2 id="六、公开访问时的安全建议"><a href="#六、公开访问时的安全建议" class="headerlink" title="六、公开访问时的安全建议"></a>六、公开访问时的安全建议</h2><p>如果只是在家里的局域网使用，直接通过 NAS IP 访问通常就够了。若要把 it-tools 暴露到公网，至少应做好：</p><ol><li>使用 HTTPS；</li><li>增加登录认证或访问控制；</li><li>不要把管理端口直接暴露在公网；</li><li>定期更新镜像和反向代理；</li><li>不在公开实例中处理密码、Token 和客户隐私数据。</li></ol><p>it-tools 本身是工具集合，不会替你决定数据是否敏感。部署方式和使用场景才是安全边界。</p><h2 id="七、适用人群"><a href="#七、适用人群" class="headerlink" title="七、适用人群"></a>七、适用人群</h2><ul><li><strong>程序员</strong>：处理 JSON、编码、哈希和测试数据；</li><li><strong>网页设计师</strong>：转换颜色、生成二维码和预览 Markdown；</li><li><strong>系统管理员</strong>：计算子网、生成 Crontab 表达式；</li><li><strong>NAS 用户</strong>：在内网部署一个随开随用的工具箱；</li><li><strong>经常处理文本和接口数据的人</strong>：减少临时找工具的时间。</li></ul><h2 id="八、总结"><a href="#八、总结" class="headerlink" title="八、总结"></a>八、总结</h2><p>it-tools 的价值在于把高频、零散的小工具集中到一个页面中。临时使用可以直接打开在线版；重视隐私和稳定性，可以用 Docker 部署在自己的 NAS 或服务器上。</p><p>建议收藏官方项目地址，部署时固定版本、保留备份，并为公网访问增加认证和 HTTPS。这样既能享受在线工具箱的便利，也不会把敏感数据交给不可信的服务。</p>]]></content>
+    
+    
+    <summary type="html">it-tools 在线工具箱介绍与 Docker 部署教程，涵盖 JSON、Base64、URL、时间戳、哈希、UUID 等常用开发工具，附自建方法与安全注意事项。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Docker" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Docker/"/>
+    
+    <category term="it-tools" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/it-tools/"/>
+    
+    <category term="在线工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="开发效率" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/"/>
+    
+    <category term="开源" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
   
   <entry>
     <title>Obsidian图床最佳实践：3分钟配置PicList + GitHub + jsDelivr！</title>
