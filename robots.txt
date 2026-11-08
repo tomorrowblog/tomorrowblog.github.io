@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.xiaomingclassmate.dpdns.org/sitemap.xml
+Sitemap: https://xiaomingclassmate.com/sitemap.xml

@@ -3,11 +3,11 @@
   <title>小明同学 - VPS</title>
   
   <subtitle>分类：VPS</subtitle>
-  <link href="https://blog.xiaomingclassmate.dpdns.org/categories/VPS/atom.xml" rel="self"/>
+  <link href="https://xiaomingclassmate.com/categories/VPS/atom.xml" rel="self"/>
   
-  <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
+  <link href="https://xiaomingclassmate.com/"/>
   <updated>2026-11-08T12:57:06.675Z</updated>
-  <id>https://blog.xiaomingclassmate.dpdns.org/</id>
+  <id>https://xiaomingclassmate.com/</id>
   
   <author>
     <name>小明同学</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>RackNerd 2026 年 11 月 VPS 特价：五档 KVM 套餐配置、价格与选购建议</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/61827/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/61827/</id>
+    <link href="https://xiaomingclassmate.com/posts/61827/"/>
+    <id>https://xiaomingclassmate.com/posts/61827/</id>
     <published>2026-11-04T09:44:00.000Z</published>
     <updated>2026-11-08T12:57:06.675Z</updated>
     
@@ -30,25 +30,25 @@
     
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/categories/VPS/"/>
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/tags/VPS/"/>
     
-    <category term="优惠" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BC%98%E6%83%A0/"/>
+    <category term="优惠" scheme="https://xiaomingclassmate.com/tags/%E4%BC%98%E6%83%A0/"/>
     
-    <category term="RackNerd" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/RackNerd/"/>
+    <category term="RackNerd" scheme="https://xiaomingclassmate.com/tags/RackNerd/"/>
     
-    <category term="KVM" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/KVM/"/>
+    <category term="KVM" scheme="https://xiaomingclassmate.com/tags/KVM/"/>
     
-    <category term="年付" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B9%B4%E4%BB%98/"/>
+    <category term="年付" scheme="https://xiaomingclassmate.com/tags/%E5%B9%B4%E4%BB%98/"/>
     
   </entry>
   
   <entry>
     <title>DediRock 最新促销活动：四类 VPS 套餐配置、价格与购买链接（2026年11月）</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/39394/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/39394/</id>
+    <link href="https://xiaomingclassmate.com/posts/39394/"/>
+    <id>https://xiaomingclassmate.com/posts/39394/</id>
     <published>2026-11-01T14:30:00.000Z</published>
     <updated>2026-11-08T12:56:22.599Z</updated>
     
@@ -59,16 +59,16 @@
     
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/categories/VPS/"/>
     
     
-    <category term="DediRock" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/DediRock/"/>
+    <category term="DediRock" scheme="https://xiaomingclassmate.com/tags/DediRock/"/>
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/tags/VPS/"/>
     
-    <category term="存储 VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AD%98%E5%82%A8-VPS/"/>
+    <category term="存储 VPS" scheme="https://xiaomingclassmate.com/tags/%E5%AD%98%E5%82%A8-VPS/"/>
     
-    <category term="优惠" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BC%98%E6%83%A0/"/>
+    <category term="优惠" scheme="https://xiaomingclassmate.com/tags/%E4%BC%98%E6%83%A0/"/>
     
   </entry>
   

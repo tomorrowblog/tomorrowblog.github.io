@@ -3,11 +3,11 @@
   <title>小明同学</title>
   
   <subtitle>Linux、Docker、VPS 与 AI 实践笔记</subtitle>
-  <link href="https://blog.xiaomingclassmate.dpdns.org/atom.xml" rel="self"/>
+  <link href="https://xiaomingclassmate.com/atom.xml" rel="self"/>
   
-  <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
+  <link href="https://xiaomingclassmate.com/"/>
   <updated>2026-11-08T12:57:06.675Z</updated>
-  <id>https://blog.xiaomingclassmate.dpdns.org/</id>
+  <id>https://xiaomingclassmate.com/</id>
   
   <author>
     <name>小明同学</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>RackNerd 2026 年 11 月 VPS 特价：五档 KVM 套餐配置、价格与选购建议</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/61827/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/61827/</id>
+    <link href="https://xiaomingclassmate.com/posts/61827/"/>
+    <id>https://xiaomingclassmate.com/posts/61827/</id>
     <published>2026-11-04T09:44:00.000Z</published>
     <updated>2026-11-08T12:57:06.675Z</updated>
     
@@ -30,25 +30,25 @@
     
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/categories/VPS/"/>
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/tags/VPS/"/>
     
-    <category term="优惠" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BC%98%E6%83%A0/"/>
+    <category term="优惠" scheme="https://xiaomingclassmate.com/tags/%E4%BC%98%E6%83%A0/"/>
     
-    <category term="RackNerd" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/RackNerd/"/>
+    <category term="RackNerd" scheme="https://xiaomingclassmate.com/tags/RackNerd/"/>
     
-    <category term="KVM" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/KVM/"/>
+    <category term="KVM" scheme="https://xiaomingclassmate.com/tags/KVM/"/>
     
-    <category term="年付" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B9%B4%E4%BB%98/"/>
+    <category term="年付" scheme="https://xiaomingclassmate.com/tags/%E5%B9%B4%E4%BB%98/"/>
     
   </entry>
   
   <entry>
     <title>DediRock 最新促销活动：四类 VPS 套餐配置、价格与购买链接（2026年11月）</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/39394/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/39394/</id>
+    <link href="https://xiaomingclassmate.com/posts/39394/"/>
+    <id>https://xiaomingclassmate.com/posts/39394/</id>
     <published>2026-11-01T14:30:00.000Z</published>
     <updated>2026-11-08T12:56:22.599Z</updated>
     
@@ -59,23 +59,23 @@
     
     
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/categories/VPS/"/>
     
     
-    <category term="DediRock" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/DediRock/"/>
+    <category term="DediRock" scheme="https://xiaomingclassmate.com/tags/DediRock/"/>
     
-    <category term="VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/VPS/"/>
+    <category term="VPS" scheme="https://xiaomingclassmate.com/tags/VPS/"/>
     
-    <category term="存储 VPS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AD%98%E5%82%A8-VPS/"/>
+    <category term="存储 VPS" scheme="https://xiaomingclassmate.com/tags/%E5%AD%98%E5%82%A8-VPS/"/>
     
-    <category term="优惠" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BC%98%E6%83%A0/"/>
+    <category term="优惠" scheme="https://xiaomingclassmate.com/tags/%E4%BC%98%E6%83%A0/"/>
     
   </entry>
   
   <entry>
     <title>CC Switch 的对手来了：Magpie 不帮你改配置，而是让你不用再改</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/24101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/24101/</id>
+    <link href="https://xiaomingclassmate.com/posts/24101/"/>
+    <id>https://xiaomingclassmate.com/posts/24101/</id>
     <published>2026-10-14T09:23:41.000Z</published>
     <updated>2026-11-08T12:56:54.935Z</updated>
     
@@ -86,25 +86,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="AI编程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    <category term="AI编程" scheme="https://xiaomingclassmate.com/tags/AI%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="Magpie" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Magpie/"/>
+    <category term="Magpie" scheme="https://xiaomingclassmate.com/tags/Magpie/"/>
     
-    <category term="API网关" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/API%E7%BD%91%E5%85%B3/"/>
+    <category term="API网关" scheme="https://xiaomingclassmate.com/tags/API%E7%BD%91%E5%85%B3/"/>
     
-    <category term="Claude Code" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Claude-Code/"/>
+    <category term="Claude Code" scheme="https://xiaomingclassmate.com/tags/Claude-Code/"/>
     
-    <category term="Codex" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Codex/"/>
+    <category term="Codex" scheme="https://xiaomingclassmate.com/tags/Codex/"/>
     
   </entry>
   
   <entry>
     <title>Obsidian 下载即吃灰？装上这4个插件，毛坯房秒变精装房</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/23101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/23101/</id>
+    <link href="https://xiaomingclassmate.com/posts/23101/"/>
+    <id>https://xiaomingclassmate.com/posts/23101/</id>
     <published>2026-09-12T09:07:09.000Z</published>
     <updated>2026-11-08T12:57:03.239Z</updated>
     
@@ -115,25 +115,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="Obsidian" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Obsidian/"/>
+    <category term="Obsidian" scheme="https://xiaomingclassmate.com/tags/Obsidian/"/>
     
-    <category term="插件" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%92%E4%BB%B6/"/>
+    <category term="插件" scheme="https://xiaomingclassmate.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
-    <category term="知识管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
+    <category term="知识管理" scheme="https://xiaomingclassmate.com/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
     
-    <category term="Web Clipper" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Web-Clipper/"/>
+    <category term="Web Clipper" scheme="https://xiaomingclassmate.com/tags/Web-Clipper/"/>
     
-    <category term="工作流" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    <category term="工作流" scheme="https://xiaomingclassmate.com/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
     
   </entry>
   
   <entry>
     <title>我给 AI 装了“偷懒插件”：代码少一半，安全和测试反而更好</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/48129/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/48129/</id>
+    <link href="https://xiaomingclassmate.com/posts/48129/"/>
+    <id>https://xiaomingclassmate.com/posts/48129/</id>
     <published>2026-09-12T08:25:31.000Z</published>
     <updated>2026-11-08T13:50:00.000Z</updated>
     
@@ -144,25 +144,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="开发效率" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/"/>
+    <category term="开发效率" scheme="https://xiaomingclassmate.com/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/"/>
     
-    <category term="AI编程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    <category term="AI编程" scheme="https://xiaomingclassmate.com/tags/AI%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="Claude Code" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Claude-Code/"/>
+    <category term="Claude Code" scheme="https://xiaomingclassmate.com/tags/Claude-Code/"/>
     
-    <category term="Codex" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Codex/"/>
+    <category term="Codex" scheme="https://xiaomingclassmate.com/tags/Codex/"/>
     
-    <category term="Ponytail" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Ponytail/"/>
+    <category term="Ponytail" scheme="https://xiaomingclassmate.com/tags/Ponytail/"/>
     
   </entry>
   
   <entry>
     <title>Karpathy 的 4 条守则：80 行让 AI 编码从“翻车”变“靠谱”</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/22101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/22101/</id>
+    <link href="https://xiaomingclassmate.com/posts/22101/"/>
+    <id>https://xiaomingclassmate.com/posts/22101/</id>
     <published>2026-08-09T08:14:46.000Z</published>
     <updated>2026-11-08T12:56:46.907Z</updated>
     
@@ -173,25 +173,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="Karpathy" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Karpathy/"/>
+    <category term="Karpathy" scheme="https://xiaomingclassmate.com/tags/Karpathy/"/>
     
-    <category term="AI编程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    <category term="AI编程" scheme="https://xiaomingclassmate.com/tags/AI%E7%BC%96%E7%A8%8B/"/>
     
-    <category term="CLAUDE.md" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/CLAUDE-md/"/>
+    <category term="CLAUDE.md" scheme="https://xiaomingclassmate.com/tags/CLAUDE-md/"/>
     
-    <category term="代码质量" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+    <category term="代码质量" scheme="https://xiaomingclassmate.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-    <category term="提示词工程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B/"/>
+    <category term="提示词工程" scheme="https://xiaomingclassmate.com/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>还在为 Obsidian 同步发愁？这款开源神器，让你实现全平台秒传</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/25101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/25101/</id>
+    <link href="https://xiaomingclassmate.com/posts/25101/"/>
+    <id>https://xiaomingclassmate.com/posts/25101/</id>
     <published>2026-03-05T11:42:00.000Z</published>
     <updated>2026-11-08T12:56:29.319Z</updated>
     
@@ -202,25 +202,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="NAS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/NAS/"/>
+    <category term="NAS" scheme="https://xiaomingclassmate.com/tags/NAS/"/>
     
-    <category term="Docker" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Docker/"/>
+    <category term="Docker" scheme="https://xiaomingclassmate.com/tags/Docker/"/>
     
-    <category term="Obsidian" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Obsidian/"/>
+    <category term="Obsidian" scheme="https://xiaomingclassmate.com/tags/Obsidian/"/>
     
-    <category term="Fast Note Sync" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Fast-Note-Sync/"/>
+    <category term="Fast Note Sync" scheme="https://xiaomingclassmate.com/tags/Fast-Note-Sync/"/>
     
-    <category term="笔记同步" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5/"/>
+    <category term="笔记同步" scheme="https://xiaomingclassmate.com/tags/%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5/"/>
     
   </entry>
   
   <entry>
     <title>终于找到它了！Umi-OCR：这个离线文字识别神器，免费、批量、超安全！</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/21101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/21101/</id>
+    <link href="https://xiaomingclassmate.com/posts/21101/"/>
+    <id>https://xiaomingclassmate.com/posts/21101/</id>
     <published>2026-02-09T15:23:57.000Z</published>
     <updated>2026-11-08T12:57:13.699Z</updated>
     
@@ -231,25 +231,25 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="Umi-OCR" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Umi-OCR/"/>
+    <category term="Umi-OCR" scheme="https://xiaomingclassmate.com/tags/Umi-OCR/"/>
     
-    <category term="OCR" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/OCR/"/>
+    <category term="OCR" scheme="https://xiaomingclassmate.com/tags/OCR/"/>
     
-    <category term="文字识别" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB/"/>
+    <category term="文字识别" scheme="https://xiaomingclassmate.com/tags/%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB/"/>
     
-    <category term="离线工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%A6%BB%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
+    <category term="离线工具" scheme="https://xiaomingclassmate.com/tags/%E7%A6%BB%E7%BA%BF%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="开源软件" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/"/>
+    <category term="开源软件" scheme="https://xiaomingclassmate.com/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>终极博客搭建术！Docker + Hexo，让你的写作环境“一尘不染”！</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/59636/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/59636/</id>
+    <link href="https://xiaomingclassmate.com/posts/59636/"/>
+    <id>https://xiaomingclassmate.com/posts/59636/</id>
     <published>2026-01-31T03:54:18.000Z</published>
     <updated>2026-11-08T12:57:25.935Z</updated>
     
@@ -260,21 +260,21 @@
     
     
     
-    <category term="Docker" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/Docker/"/>
+    <category term="Docker" scheme="https://xiaomingclassmate.com/categories/Docker/"/>
     
     
-    <category term="Docker" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Docker/"/>
+    <category term="Docker" scheme="https://xiaomingclassmate.com/tags/Docker/"/>
     
-    <category term="Hexo" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://xiaomingclassmate.com/tags/Hexo/"/>
     
-    <category term="博客搭建" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://xiaomingclassmate.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>2026年如何注册谷歌邮箱——绕过手机号验证（超简单！）</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/52218/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/52218/</id>
+    <link href="https://xiaomingclassmate.com/posts/52218/"/>
+    <id>https://xiaomingclassmate.com/posts/52218/</id>
     <published>2026-01-25T08:07:55.000Z</published>
     <updated>2026-11-08T12:56:40.775Z</updated>
     
@@ -285,21 +285,21 @@
     
     
     
-    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <category term="实用教程" scheme="https://xiaomingclassmate.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Gmail" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Gmail/"/>
+    <category term="Gmail" scheme="https://xiaomingclassmate.com/tags/Gmail/"/>
     
-    <category term="Google" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Google/"/>
+    <category term="Google" scheme="https://xiaomingclassmate.com/tags/Google/"/>
     
-    <category term="账号注册" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
+    <category term="账号注册" scheme="https://xiaomingclassmate.com/tags/%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
     
   </entry>
   
   <entry>
     <title>还在手动下载GitHub Releases？这款“App Store”让你一键搞定开源软件安装、更新！</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/26258/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/26258/</id>
+    <link href="https://xiaomingclassmate.com/posts/26258/"/>
+    <id>https://xiaomingclassmate.com/posts/26258/</id>
     <published>2026-01-20T15:47:45.000Z</published>
     <updated>2026-11-08T12:56:38.379Z</updated>
     
@@ -310,21 +310,21 @@
     
     
     
-    <category term="开源工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
+    <category term="开源工具" scheme="https://xiaomingclassmate.com/categories/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="GitHub Store" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/GitHub-Store/"/>
+    <category term="GitHub Store" scheme="https://xiaomingclassmate.com/tags/GitHub-Store/"/>
     
-    <category term="GitHub Releases" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/GitHub-Releases/"/>
+    <category term="GitHub Releases" scheme="https://xiaomingclassmate.com/tags/GitHub-Releases/"/>
     
-    <category term="软件管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
+    <category term="软件管理" scheme="https://xiaomingclassmate.com/tags/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>告别“无谷歌”焦虑！安卓手机手动安装Google Play全攻略，亲测有效！</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/12101/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/12101/</id>
+    <link href="https://xiaomingclassmate.com/posts/12101/"/>
+    <id>https://xiaomingclassmate.com/posts/12101/</id>
     <published>2026-01-19T13:36:45.000Z</published>
     <updated>2026-11-08T12:56:16.655Z</updated>
     
@@ -335,21 +335,21 @@
     
     
     
-    <category term="安卓" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%89%E5%8D%93/"/>
+    <category term="安卓" scheme="https://xiaomingclassmate.com/categories/%E5%AE%89%E5%8D%93/"/>
     
     
-    <category term="Android" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Android/"/>
+    <category term="Android" scheme="https://xiaomingclassmate.com/tags/Android/"/>
     
-    <category term="Google Play" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Google-Play/"/>
+    <category term="Google Play" scheme="https://xiaomingclassmate.com/tags/Google-Play/"/>
     
-    <category term="手机教程" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%89%8B%E6%9C%BA%E6%95%99%E7%A8%8B/"/>
+    <category term="手机教程" scheme="https://xiaomingclassmate.com/tags/%E6%89%8B%E6%9C%BA%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>【好消息！】余额又回来了 ！ 接码平台 SMS-Activate 余额可以转移到新平台使用</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/35016/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/35016/</id>
+    <link href="https://xiaomingclassmate.com/posts/35016/"/>
+    <id>https://xiaomingclassmate.com/posts/35016/</id>
     <published>2026-01-19T12:54:31.000Z</published>
     <updated>2026-11-08T12:57:10.047Z</updated>
     
@@ -360,21 +360,21 @@
     
     
     
-    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <category term="实用教程" scheme="https://xiaomingclassmate.com/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="SMS-Activate" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/SMS-Activate/"/>
+    <category term="SMS-Activate" scheme="https://xiaomingclassmate.com/tags/SMS-Activate/"/>
     
-    <category term="接码平台" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8E%A5%E7%A0%81%E5%B9%B3%E5%8F%B0/"/>
+    <category term="接码平台" scheme="https://xiaomingclassmate.com/tags/%E6%8E%A5%E7%A0%81%E5%B9%B3%E5%8F%B0/"/>
     
-    <category term="账号安全" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E8%B4%A6%E5%8F%B7%E5%AE%89%E5%85%A8/"/>
+    <category term="账号安全" scheme="https://xiaomingclassmate.com/tags/%E8%B4%A6%E5%8F%B7%E5%AE%89%E5%85%A8/"/>
     
   </entry>
   
   <entry>
     <title>年会抽奖还在用老一套？这款免费开源的 log-lottery，让你的年会瞬间变“高大上”！</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/23175/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/23175/</id>
+    <link href="https://xiaomingclassmate.com/posts/23175/"/>
+    <id>https://xiaomingclassmate.com/posts/23175/</id>
     <published>2026-01-18T06:15:48.000Z</published>
     <updated>2026-11-08T12:56:51.375Z</updated>
     
@@ -385,21 +385,21 @@
     
     
     
-    <category term="开源项目" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    <category term="开源项目" scheme="https://xiaomingclassmate.com/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
     
     
-    <category term="开源工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
+    <category term="开源工具" scheme="https://xiaomingclassmate.com/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="log-lottery" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/log-lottery/"/>
+    <category term="log-lottery" scheme="https://xiaomingclassmate.com/tags/log-lottery/"/>
     
-    <category term="年会抽奖" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B9%B4%E4%BC%9A%E6%8A%BD%E5%A5%96/"/>
+    <category term="年会抽奖" scheme="https://xiaomingclassmate.com/tags/%E5%B9%B4%E4%BC%9A%E6%8A%BD%E5%A5%96/"/>
     
   </entry>
   
   <entry>
     <title>自建安卓消息推送与通知服务- Gotify</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/52327/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/52327/</id>
+    <link href="https://xiaomingclassmate.com/posts/52327/"/>
+    <id>https://xiaomingclassmate.com/posts/52327/</id>
     <published>2026-01-11T14:24:24.000Z</published>
     <updated>2026-11-08T12:56:42.915Z</updated>
     
@@ -410,21 +410,21 @@
     
     
     
-    <category term="自建服务" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/"/>
+    <category term="自建服务" scheme="https://xiaomingclassmate.com/categories/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/"/>
     
     
-    <category term="Gotify" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Gotify/"/>
+    <category term="Gotify" scheme="https://xiaomingclassmate.com/tags/Gotify/"/>
     
-    <category term="安卓推送" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AE%89%E5%8D%93%E6%8E%A8%E9%80%81/"/>
+    <category term="安卓推送" scheme="https://xiaomingclassmate.com/tags/%E5%AE%89%E5%8D%93%E6%8E%A8%E9%80%81/"/>
     
-    <category term="自建服务" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/"/>
+    <category term="自建服务" scheme="https://xiaomingclassmate.com/tags/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/"/>
     
   </entry>
   
   <entry>
     <title>给想搞学习但没时间的你：把 YouTube 变成你的私人图书馆</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/7996/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/7996/</id>
+    <link href="https://xiaomingclassmate.com/posts/7996/"/>
+    <id>https://xiaomingclassmate.com/posts/7996/</id>
     <published>2026-01-11T02:40:26.000Z</published>
     <updated>2026-11-08T12:56:53.427Z</updated>
     
@@ -435,21 +435,21 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="LongCut" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/LongCut/"/>
+    <category term="LongCut" scheme="https://xiaomingclassmate.com/tags/LongCut/"/>
     
-    <category term="YouTube" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://xiaomingclassmate.com/tags/YouTube/"/>
     
-    <category term="学习工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7/"/>
+    <category term="学习工具" scheme="https://xiaomingclassmate.com/tags/%E5%AD%A6%E4%B9%A0%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>卸载掉你那堆带广告的转换器吧，有一个 VERT 就够了</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/28305/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/28305/</id>
+    <link href="https://xiaomingclassmate.com/posts/28305/"/>
+    <id>https://xiaomingclassmate.com/posts/28305/</id>
     <published>2026-01-08T16:10:30.000Z</published>
     <updated>2026-11-08T12:57:21.139Z</updated>
     
@@ -460,21 +460,21 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="VERT" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/VERT/"/>
+    <category term="VERT" scheme="https://xiaomingclassmate.com/tags/VERT/"/>
     
-    <category term="文件转换" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2/"/>
+    <category term="文件转换" scheme="https://xiaomingclassmate.com/tags/%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2/"/>
     
-    <category term="隐私" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E9%9A%90%E7%A7%81/"/>
+    <category term="隐私" scheme="https://xiaomingclassmate.com/tags/%E9%9A%90%E7%A7%81/"/>
     
   </entry>
   
   <entry>
     <title>每天 5 分钟，刷完互联网最硬核的技术干货，我是怎么做到的？</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/1698/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/1698/</id>
+    <link href="https://xiaomingclassmate.com/posts/1698/"/>
+    <id>https://xiaomingclassmate.com/posts/1698/</id>
     <published>2026-01-03T14:49:51.000Z</published>
     <updated>2026-11-08T12:56:18.619Z</updated>
     
@@ -485,21 +485,21 @@
     
     
     
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    <category term="效率工具" scheme="https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="BestBlogs" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/BestBlogs/"/>
+    <category term="BestBlogs" scheme="https://xiaomingclassmate.com/tags/BestBlogs/"/>
     
-    <category term="技术阅读" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8A%80%E6%9C%AF%E9%98%85%E8%AF%BB/"/>
+    <category term="技术阅读" scheme="https://xiaomingclassmate.com/tags/%E6%8A%80%E6%9C%AF%E9%98%85%E8%AF%BB/"/>
     
-    <category term="信息筛选" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E4%BF%A1%E6%81%AF%E7%AD%9B%E9%80%89/"/>
+    <category term="信息筛选" scheme="https://xiaomingclassmate.com/tags/%E4%BF%A1%E6%81%AF%E7%AD%9B%E9%80%89/"/>
     
   </entry>
   
   <entry>
     <title>别再死磕命令行了，Dockge 才是 Docker Compose 的正确打开方式</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/53591/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/53591/</id>
+    <link href="https://xiaomingclassmate.com/posts/53591/"/>
+    <id>https://xiaomingclassmate.com/posts/53591/</id>
     <published>2026-01-03T03:37:52.000Z</published>
     <updated>2026-11-08T12:56:26.435Z</updated>
     
@@ -510,21 +510,21 @@
     
     
     
-    <category term="Docker" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/Docker/"/>
+    <category term="Docker" scheme="https://xiaomingclassmate.com/categories/Docker/"/>
     
     
-    <category term="Dockge" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Dockge/"/>
+    <category term="Dockge" scheme="https://xiaomingclassmate.com/tags/Dockge/"/>
     
-    <category term="Docker Compose" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Docker-Compose/"/>
+    <category term="Docker Compose" scheme="https://xiaomingclassmate.com/tags/Docker-Compose/"/>
     
-    <category term="容器管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86/"/>
+    <category term="容器管理" scheme="https://xiaomingclassmate.com/tags/%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>告别 FTP！这款 30MB 的神器，把你的服务器变成“私人网盘”</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/44030/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/44030/</id>
+    <link href="https://xiaomingclassmate.com/posts/44030/"/>
+    <id>https://xiaomingclassmate.com/posts/44030/</id>
     <published>2026-01-01T03:00:09.000Z</published>
     <updated>2026-11-08T12:57:08.087Z</updated>
     
@@ -535,14 +535,14 @@
     
     
     
-    <category term="NAS" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/NAS/"/>
+    <category term="NAS" scheme="https://xiaomingclassmate.com/categories/NAS/"/>
     
     
-    <category term="NAS" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/NAS/"/>
+    <category term="NAS" scheme="https://xiaomingclassmate.com/tags/NAS/"/>
     
-    <category term="文件管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
+    <category term="文件管理" scheme="https://xiaomingclassmate.com/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
     
-    <category term="服务器" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="https://xiaomingclassmate.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
