@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T11:48:26.794Z</updated>
+  <updated>2026-11-08T12:03:42.623Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Obsidian 下载即吃灰？装上这4个插件，毛坯房秒变精装房</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/23101/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/23101/</id>
+    <published>2026-11-08T12:10:00.000Z</published>
+    <updated>2026-11-08T12:03:42.623Z</updated>
+    
+    <content type="html"><![CDATA[<p>先说个扎心的场景。</p><p>很多人被安利了 Obsidian，兴冲冲下载打开。界面光秃秃，一个空文件夹，一片空白。</p><p>然后呢？然后就吃灰了。</p><p>其实不是 Obsidian 不行，是你没装对插件。装对这四个，它就从“毛坯房”变“精装房”：收集、编辑、关联、同步，四个核心问题一次解决。</p><blockquote><p><strong>版本提示：</strong> 本文基于 2026 年 8 月的文章整理；Obsidian 插件功能和权限可能变化，请以官方插件目录当前说明为准。</p><p><strong>安全提示：</strong> 第三方插件可以读取或修改笔记库，安装前请先备份，并只从 Obsidian 官方目录或项目官方发布页安装。<code>Claudian</code> 和 <code>Fast Note Sync</code> 目前在目录中标记为未经 Obsidian 团队人工审核。</p></blockquote><h2 id="①-Web-Clipper-解释器：剪藏即理解"><a href="#①-Web-Clipper-解释器：剪藏即理解" class="headerlink" title="① Web Clipper + 解释器：剪藏即理解"></a>① Web Clipper + 解释器：剪藏即理解</h2><p>看到好文章、好视频，想存进 Obsidian，还得手动复制粘贴？</p><p>官方的 <a href="https://obsidian.md/clipper">Web Clipper</a> 浏览器插件，点一下，网页内容直接进笔记库。</p><p>配合解释器功能（比如接 DeepSeek 模型），剪藏的同时自动生成摘要、提炼关键词，连 YouTube 视频字幕都能转成笔记。你存进来的不再是碎片，而是整理好的知识卡片。</p><p>建议提前把模板设置好，收集模块化，后面查找和管理都省心。</p><p><img src="/images/obsidian-plugins/web-clipper-workflow.webp" alt="剪藏工作流：网页一键变知识卡片"></p><h2 id="②-Editing-Toolbar：不用背-Markdown-语法"><a href="#②-Editing-Toolbar：不用背-Markdown-语法" class="headerlink" title="② Editing Toolbar：不用背 Markdown 语法"></a>② Editing Toolbar：不用背 Markdown 语法</h2><p>新手最头疼什么？记语法。加粗两个星号，链接方括号加圆括号，写一句查一次。</p><p><a href="https://obsidian.md/plugins?id=editing-toolbar">Editing Toolbar</a> 在编辑器顶部加了一条可视化工具栏：加粗、斜体、标题、引用、列表、代码块，全部一键搞定，写起来像 Word 一样流畅。</p><p>想拉朋友入坑 Obsidian，先给他装这个，适应门槛直接砍半。</p><h2 id="③-Claudian：AI-替你挖笔记关联"><a href="#③-Claudian：AI-替你挖笔记关联" class="headerlink" title="③ Claudian：AI 替你挖笔记关联"></a>③ Claudian：AI 替你挖笔记关联</h2><p>笔记记多了有个通病：全是孤岛。单看每篇都有用，彼此的联系却没人管。</p><p><a href="https://obsidian.md/plugins?id=realclaudian">Claudian</a> 把 Claude Code、Codex 等本地代理带进笔记库，可让 AI 在写作时分析内容、挖掘隐性关联。比如你写过“时间管理”和“精力管理”，它可以提示两者的共通点，帮你把知识网络织起来。</p><p>你不用刻意整理。AI 可以在写作时辅助分析，但使用前要准备好对应的本地 CLI 或 API 环境，并确认数据会发送到哪里。</p><h2 id="④-Fast-Note-Sync：多端同步"><a href="#④-Fast-Note-Sync：多端同步" class="headerlink" title="④ Fast Note Sync：多端同步"></a>④ Fast Note Sync：多端同步</h2><p>笔记不能在手机上接着写，体验直接打折。</p><p><a href="https://obsidian.md/plugins?id=fast-note-sync">Fast Note Sync</a> 可以把电脑、手机和平板连接到同一个同步服务。插件本身免费，但通常需要部署或连接可用的服务器；域名、带宽和运维成本要自行承担。重要笔记仍建议保留额外备份。</p><p>出门手机随手记，回家电脑上已经在了。这种畅快感，用过就回不去。</p><h2 id="拼起来就是一条工作流"><a href="#拼起来就是一条工作流" class="headerlink" title="拼起来就是一条工作流"></a>拼起来就是一条工作流</h2><p>收集用 Web Clipper，编辑用 Editing Toolbar，关联交给 Claudian，同步交给 Fast Note Sync。四款插件对应四个环节，一套流水线就搭好了。</p><p><img src="/images/obsidian-plugins/four-plugins-workflow.webp" alt="四插件工作流：收集、编辑、关联、同步"></p><p>工具的价值不在多复杂，而在能不能补上你工作流里缺的那一块。刚开始用 Obsidian 的话，从这四个入手，不会错。</p><p>你的 Obsidian 里装了哪些离不开的插件？评论区交换一下。</p>]]></content>
+    
+    
+    <summary type="html">用 Web Clipper、Editing Toolbar、Claudian 和 Fast Note Sync 补齐 Obsidian 的收集、编辑、关联与同步工作流。</summary>
+    
+    
+    
+    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Obsidian" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Obsidian/"/>
+    
+    <category term="插件" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="知识管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="Web Clipper" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Web-Clipper/"/>
+    
+    <category term="工作流" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+  </entry>
   
   <entry>
     <title>Karpathy 的 4 条守则：80 行让 AI 编码从“翻车”变“靠谱”</title>

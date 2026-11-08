@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T11:48:26.794Z</updated>
+  <updated>2026-11-08T12:03:42.623Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Obsidian 下载即吃灰？装上这4个插件，毛坯房秒变精装房</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/23101/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/23101/</id>
+    <published>2026-11-08T12:10:00.000Z</published>
+    <updated>2026-11-08T12:03:42.623Z</updated>
+    
+    <content type="html"><![CDATA[<p>先说个扎心的场景。</p><p>很多人被安利了 Obsidian，兴冲冲下载打开。界面光秃秃，一个空文件夹，一片空白。</p><p>然后呢？然后就吃灰了。</p><p>其实不是 Obsidian 不行，是你没装对插件。装对这四个，它就从“毛坯房”变“精装房”：收集、编辑、关联、同步，四个核心问题一次解决。</p><blockquote><p><strong>版本提示：</strong> 本文基于 2026 年 8 月的文章整理；Obsidian 插件功能和权限可能变化，请以官方插件目录当前说明为准。</p><p><strong>安全提示：</strong> 第三方插件可以读取或修改笔记库，安装前请先备份，并只从 Obsidian 官方目录或项目官方发布页安装。<code>Claudian</code> 和 <code>Fast Note Sync</code> 目前在目录中标记为未经 Obsidian 团队人工审核。</p></blockquote><h2 id="①-Web-Clipper-解释器：剪藏即理解"><a href="#①-Web-Clipper-解释器：剪藏即理解" class="headerlink" title="① Web Clipper + 解释器：剪藏即理解"></a>① Web Clipper + 解释器：剪藏即理解</h2><p>看到好文章、好视频，想存进 Obsidian，还得手动复制粘贴？</p><p>官方的 <a href="https://obsidian.md/clipper">Web Clipper</a> 浏览器插件，点一下，网页内容直接进笔记库。</p><p>配合解释器功能（比如接 DeepSeek 模型），剪藏的同时自动生成摘要、提炼关键词，连 YouTube 视频字幕都能转成笔记。你存进来的不再是碎片，而是整理好的知识卡片。</p><p>建议提前把模板设置好，收集模块化，后面查找和管理都省心。</p><p><img src="/images/obsidian-plugins/web-clipper-workflow.webp" alt="剪藏工作流：网页一键变知识卡片"></p><h2 id="②-Editing-Toolbar：不用背-Markdown-语法"><a href="#②-Editing-Toolbar：不用背-Markdown-语法" class="headerlink" title="② Editing Toolbar：不用背 Markdown 语法"></a>② Editing Toolbar：不用背 Markdown 语法</h2><p>新手最头疼什么？记语法。加粗两个星号，链接方括号加圆括号，写一句查一次。</p><p><a href="https://obsidian.md/plugins?id=editing-toolbar">Editing Toolbar</a> 在编辑器顶部加了一条可视化工具栏：加粗、斜体、标题、引用、列表、代码块，全部一键搞定，写起来像 Word 一样流畅。</p><p>想拉朋友入坑 Obsidian，先给他装这个，适应门槛直接砍半。</p><h2 id="③-Claudian：AI-替你挖笔记关联"><a href="#③-Claudian：AI-替你挖笔记关联" class="headerlink" title="③ Claudian：AI 替你挖笔记关联"></a>③ Claudian：AI 替你挖笔记关联</h2><p>笔记记多了有个通病：全是孤岛。单看每篇都有用，彼此的联系却没人管。</p><p><a href="https://obsidian.md/plugins?id=realclaudian">Claudian</a> 把 Claude Code、Codex 等本地代理带进笔记库，可让 AI 在写作时分析内容、挖掘隐性关联。比如你写过“时间管理”和“精力管理”，它可以提示两者的共通点，帮你把知识网络织起来。</p><p>你不用刻意整理。AI 可以在写作时辅助分析，但使用前要准备好对应的本地 CLI 或 API 环境，并确认数据会发送到哪里。</p><h2 id="④-Fast-Note-Sync：多端同步"><a href="#④-Fast-Note-Sync：多端同步" class="headerlink" title="④ Fast Note Sync：多端同步"></a>④ Fast Note Sync：多端同步</h2><p>笔记不能在手机上接着写，体验直接打折。</p><p><a href="https://obsidian.md/plugins?id=fast-note-sync">Fast Note Sync</a> 可以把电脑、手机和平板连接到同一个同步服务。插件本身免费，但通常需要部署或连接可用的服务器；域名、带宽和运维成本要自行承担。重要笔记仍建议保留额外备份。</p><p>出门手机随手记，回家电脑上已经在了。这种畅快感，用过就回不去。</p><h2 id="拼起来就是一条工作流"><a href="#拼起来就是一条工作流" class="headerlink" title="拼起来就是一条工作流"></a>拼起来就是一条工作流</h2><p>收集用 Web Clipper，编辑用 Editing Toolbar，关联交给 Claudian，同步交给 Fast Note Sync。四款插件对应四个环节，一套流水线就搭好了。</p><p><img src="/images/obsidian-plugins/four-plugins-workflow.webp" alt="四插件工作流：收集、编辑、关联、同步"></p><p>工具的价值不在多复杂，而在能不能补上你工作流里缺的那一块。刚开始用 Obsidian 的话，从这四个入手，不会错。</p><p>你的 Obsidian 里装了哪些离不开的插件？评论区交换一下。</p>]]></content>
+    
+    
+    <summary type="html">用 Web Clipper、Editing Toolbar、Claudian 和 Fast Note Sync 补齐 Obsidian 的收集、编辑、关联与同步工作流。</summary>
+    
+    
+    
+    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Obsidian" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Obsidian/"/>
+    
+    <category term="插件" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="知识管理" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="Web Clipper" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Web-Clipper/"/>
+    
+    <category term="工作流" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
+    
+  </entry>
   
   <entry>
     <title>Karpathy 的 4 条守则：80 行让 AI 编码从“翻车”变“靠谱”</title>
@@ -554,35 +583,6 @@
     <category term="团队协作" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C/"/>
     
     <category term="开发工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>零成本搭建永久图床！Github+PicGo保姆级教程，自媒体人效率翻倍秘籍</title>
-    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/73842/"/>
-    <id>https://blog.xiaomingclassmate.dpdns.org/posts/73842/</id>
-    <published>2026-11-08T06:05:00.000Z</published>
-    <updated>2026-11-08T06:44:24.279Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250329120729735.png" alt="公众号首图：电脑屏幕显示 GitHub 仓库与 PicGo 操作界面"></p><p>写公众号、博客或技术文档时，图片管理经常让人崩溃：</p><ul><li>截图散落在桌面，过几天就找不到原图；</li><li>文章搬到另一个平台后，图片全部失效；</li><li>付费图床突然涨价或停止服务，旧文章跟着遭殃。</li></ul><p>用 <strong>GitHub 仓库 + PicGo</strong> 可以搭一套零成本、自己掌控的图片上传流程。配置一次，以后截图后直接生成 Markdown 链接。</p><blockquote><p>**版本提示：**文中截图使用的 PicGo 和 GitHub 界面版本可能较旧，仅用于演示操作路径。GitHub、PicGo 及相关工具的界面和功能可能已经变化，请使用官方最新稳定版，并以官方文档和实际界面为准。</p></blockquote><p>先说清楚：这里的“永久”是指图片保存在自己的仓库中，可以随时备份和迁移，并不代表 GitHub 承诺永久免费、无限存储或链接永不失效。GitHub 也不是专业 CDN，中国大陆的访问速度取决于网络环境。它适合个人博客、低流量内容站和日常写作；高流量商业站点仍建议使用对象存储加 CDN。</p><h2 id="为什么选择-GitHub-图床？"><a href="#为什么选择-GitHub-图床？" class="headerlink" title="为什么选择 GitHub 图床？"></a>为什么选择 GitHub 图床？</h2><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><strong>成本低</strong>：个人账号可以免费创建公开仓库；</li><li><strong>文件可控</strong>：图片、目录和历史版本都在自己的仓库里；</li><li><strong>迁移方便</strong>：需要时可以克隆仓库，换到其他图床；</li><li><strong>写作效率高</strong>：PicGo 上传后直接生成 Markdown 链接。</li></ul><h3 id="限制"><a href="#限制" class="headerlink" title="限制"></a>限制</h3><ul><li>GitHub 不是专门的文件托管或 CDN 服务；</li><li>公开仓库中的图片可能被任何人访问；</li><li>仓库、账号或第三方 CDN 的可用性不受自己控制；</li><li>国内网络访问 GitHub 和 jsDelivr 可能不稳定。</li></ul><h2 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h2><table><thead><tr><th>场景</th><th align="center">是否适合</th><th>说明</th></tr></thead><tbody><tr><td>个人博客、技术文档</td><td align="center">适合</td><td>图片量不大，维护成本低</td></tr><tr><td>自媒体日常配图</td><td align="center">适合</td><td>本地保留原图，按平台上传</td></tr><tr><td>团队共享素材</td><td align="center">谨慎</td><td>需要额外管理权限和文件命名</td></tr><tr><td>高流量商业网站</td><td align="center">不建议</td><td>应使用正式对象存储和 CDN</td></tr><tr><td>身份证、合同等敏感图片</td><td align="center">禁止</td><td>不要放进公开仓库</td></tr></tbody></table><h2 id="第一步：创建-GitHub-图片仓库"><a href="#第一步：创建-GitHub-图片仓库" class="headerlink" title="第一步：创建 GitHub 图片仓库"></a>第一步：创建 GitHub 图片仓库</h2><p>登录 GitHub，点击右上角 <strong>+ → New repository</strong>：</p><ul><li>Repository name：例如 <code>username-image-bed</code>；</li><li>Visibility：选择 <strong>Public</strong>；</li><li>勾选 <strong>Add a README file</strong>；</li><li>点击 <strong>Create repository</strong>。</li></ul><p>仓库必须是公开的，否则普通图片链接无法直接访问。建议按年份和月份建立目录，例如：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">posts/2026/11/</span><br><span class="line">covers/2026/</span><br><span class="line">avatar/</span><br></pre></td></tr></table></figure><h2 id="第二步：创建最小权限-Token"><a href="#第二步：创建最小权限-Token" class="headerlink" title="第二步：创建最小权限 Token"></a>第二步：创建最小权限 Token</h2><p>不要直接使用账号密码，也不要给 Token 开启全部仓库权限。推荐使用 GitHub 的 <strong>Fine-grained token</strong>：</p><p><strong>Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token</strong></p><ul><li>Token name：<code>picgo-image-bed</code></li><li>Expiration：建议选择 90 天或 1 年；</li><li>Repository access：<strong>Only select repositories</strong></li><li>只选择刚才创建的图片仓库；</li><li>Repository permissions → <strong>Contents：Read and write</strong></li></ul><p>其他权限不需要开启。Token 只会显示一次，生成后先保存到安全的位置。</p><blockquote><p>Token 一旦泄露，应立即删除并重新生成。不要把 Token 截图、写进文章或提交到 Git 仓库。</p></blockquote><h2 id="第三步：配置-PicGo"><a href="#第三步：配置-PicGo" class="headerlink" title="第三步：配置 PicGo"></a>第三步：配置 PicGo</h2><p>从 <a href="https://github.com/Molunerfinn/PicGo/releases">PicGo 官方 Releases</a> 下载并安装客户端，进入 <strong>图床设置 → GitHub</strong>：</p><table><thead><tr><th>配置项</th><th>填写规则</th><th>示例</th></tr></thead><tbody><tr><td>仓库名</td><td>用户名&#x2F;仓库名</td><td><code>yourname/blog-images</code></td></tr><tr><td>分支名</td><td>查看仓库默认分支</td><td><code>main</code> 或 <code>master</code></td></tr><tr><td>Token</td><td>粘贴刚生成的 Token</td><td>不要公开</td></tr><tr><td>存储路径</td><td>按时间分类</td><td><code>posts/2026/11/</code></td></tr><tr><td>自定义域名</td><td>jsDelivr 地址</td><td><code>https://cdn.jsdelivr.net/gh/yourname/blog-images@main</code></td></tr></tbody></table><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250329121726773.png" alt="PicGo 的 GitHub 图床配置界面"></p><p>保存后，把 GitHub 设为默认图床。在 PicGo 上传区拖入图片，上传完成后复制 Markdown 链接。</p><p>建议开启“时间戳重命名”，避免同名图片互相覆盖：</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250329211936565.png" alt="PicGo 开启时间戳重命名"></p><p>上传成功后会得到类似下面的地址：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片说明</span>](<span class="link">https://cdn.jsdelivr.net/gh/yourname/blog-images@main/posts/2026/11/example.webp</span>)</span><br></pre></td></tr></table></figure><p>如果 jsDelivr 暂时不可用，可以先用 GitHub 原始地址排查：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://raw.githubusercontent.com/yourname/blog-images/main/posts/2026/11/example.webp</span><br></pre></td></tr></table></figure><p>原始地址适合临时测试，但不适合作为高流量网站的长期图片地址。</p><h2 id="第四步：接入-Typora（可选）"><a href="#第四步：接入-Typora（可选）" class="headerlink" title="第四步：接入 Typora（可选）"></a>第四步：接入 Typora（可选）</h2><p>打开 Typora 的 <strong>偏好设置 → 图像</strong>，把上传服务设置为 PicGo，并填写 PicGo 程序路径。配置完成后，插入本地图片时可以自动上传并替换成网络链接。</p><p>无论使用哪种编辑器，都建议保留一份本地原图。GitHub 仓库只是副本，不是唯一备份。</p><h2 id="高阶使用技巧"><a href="#高阶使用技巧" class="headerlink" title="高阶使用技巧"></a>高阶使用技巧</h2><h3 id="1-用相册管理历史图片"><a href="#1-用相册管理历史图片" class="headerlink" title="1. 用相册管理历史图片"></a>1. 用相册管理历史图片</h3><p>PicGo 的相册可以查看和删除历史图片，适合清理误传文件：</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250329220653045.png" alt="PicGo 相册管理"></p><h3 id="2-上传前压缩图片"><a href="#2-上传前压缩图片" class="headerlink" title="2. 上传前压缩图片"></a>2. 上传前压缩图片</h3><p>图片越大，页面加载越慢，仓库备份也越费时间。建议：</p><ul><li>截图统一转为 WebP 或高质量 JPEG；</li><li>长边控制在 1600～2000 像素；</li><li>单张图片尽量控制在 500 KB 以内；</li><li>照片质量设为 75～85；</li><li>文件名使用英文、数字和短横线。</li></ul><p>可以在 PicGo 插件设置中搜索图片压缩插件：</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250329221203248.png" alt="PicGo 图片压缩插件"></p><h3 id="3-做好备份"><a href="#3-做好备份" class="headerlink" title="3. 做好备份"></a>3. 做好备份</h3><p>至少保留三层：</p><ol><li>GitHub 仓库保存一份；</li><li>本地保留原始图片；</li><li>定期把仓库克隆到另一块硬盘或私有备份位置。</li></ol><p>Git 可以恢复历史版本，但前提是仓库还在、账号还能登录。不要把“云端有文件”误解成“永远不需要备份”。</p><h2 id="安全注意事项"><a href="#安全注意事项" class="headerlink" title="安全注意事项"></a>安全注意事项</h2><ul><li>Token 只授权图片仓库，不要选择“全部仓库”；</li><li>不要上传身份证、合同、密码等敏感图片；</li><li>公开仓库中的文件可能被搜索引擎或其他人访问；</li><li>Token 过期后，PicGo 会提示上传失败，重新生成并替换即可；</li><li>不要把“永久免费”当成平台承诺，重要图片必须保留本地副本。</li></ul><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="GitHub-图床会被封吗？"><a href="#GitHub-图床会被封吗？" class="headerlink" title="GitHub 图床会被封吗？"></a>GitHub 图床会被封吗？</h3><p>没有平台能保证永远不封。只要仓库内容合规、没有侵权或滥用行为，个人博客使用通常没有问题；但账号、仓库或服务策略变化都可能影响图片访问。</p><h3 id="jsDelivr-每月有多少免费流量？"><a href="#jsDelivr-每月有多少免费流量？" class="headerlink" title="jsDelivr 每月有多少免费流量？"></a>jsDelivr 每月有多少免费流量？</h3><p>jsDelivr 的使用政策和额度可能调整，不应把“每月 100GB”当作永久承诺。高流量站点应准备对象存储或商业 CDN，避免把业务完全依赖第三方免费服务。</p><h3 id="手机端如何上传？"><a href="#手机端如何上传？" class="headerlink" title="手机端如何上传？"></a>手机端如何上传？</h3><p>PicGo 以桌面客户端为主。手机端可以先保存图片，再通过 GitHub 网页上传，或使用支持 GitHub 图床的第三方工具。不同客户端的兼容性需要自行确认。</p><h3 id="图片打不开怎么办？"><a href="#图片打不开怎么办？" class="headerlink" title="图片打不开怎么办？"></a>图片打不开怎么办？</h3><p>依次检查：</p><ol><li>仓库是否为 Public；</li><li>分支名是否填写正确；</li><li>文件是否真的出现在仓库中；</li><li>自定义域名是否包含用户名和仓库名；</li><li>jsDelivr 是否存在缓存延迟。</li></ol><h3 id="上传提示-403-或-Permission-denied"><a href="#上传提示-403-或-Permission-denied" class="headerlink" title="上传提示 403 或 Permission denied"></a>上传提示 403 或 Permission denied</h3><p>通常是 Token 权限不足或已经过期。检查 Contents 是否为 Read and write，确认 Token 没有过期，并确认它授权给了正确的仓库。</p><h2 id="立即开始"><a href="#立即开始" class="headerlink" title="立即开始"></a>立即开始</h2><ol><li>打开 <a href="https://github.com/">GitHub</a> 注册并创建图片仓库；</li><li>下载 <a href="https://github.com/Molunerfinn/PicGo/releases">PicGo 客户端</a>；</li><li>创建最小权限 Token；</li><li>在 PicGo 中完成配置并上传第一张测试图片；</li><li>保留原图，并定期备份整个图片仓库。</li></ol><p>GitHub + PicGo 不是“零维护”的永久图床，但它是一套成本低、文件可控、迁移方便的图片管理方案。把图片掌握在自己手里，再根据访问量选择合适的 CDN，才是更稳妥的长期做法。</p>]]></content>
-    
-    
-    <summary type="html">基于 GitHub 仓库和 PicGo 搭建零成本图床的完整教程：创建公开仓库、配置细粒度 Token、生成 CDN 链接、压缩图片、备份与常见故障排查。</summary>
-    
-    
-    
-    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="图床" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-    <category term="GitHub" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/GitHub/"/>
-    
-    <category term="PicGo" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/PicGo/"/>
-    
-    <category term="自媒体" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
-    
-    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
