@@ -1,3 +1,5 @@
+https://blog.xiaomingclassmate.dpdns.org/posts/17771/
+https://blog.xiaomingclassmate.dpdns.org/posts/18881/
 https://blog.xiaomingclassmate.dpdns.org/posts/16661/
 https://blog.xiaomingclassmate.dpdns.org/posts/15551/
 https://blog.xiaomingclassmate.dpdns.org/posts/14441/
@@ -117,6 +119,10 @@ https://blog.xiaomingclassmate.dpdns.org/tags/%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%
 https://blog.xiaomingclassmate.dpdns.org/tags/frpc-desktop/
 https://blog.xiaomingclassmate.dpdns.org/tags/uv-custom/
 https://blog.xiaomingclassmate.dpdns.org/tags/ZeroNews/
+https://blog.xiaomingclassmate.dpdns.org/tags/%E8%8A%82%E7%82%B9%E5%B0%8F%E5%AE%9D/
+https://blog.xiaomingclassmate.dpdns.org/tags/OpenResty-Manager/
+https://blog.xiaomingclassmate.dpdns.org/tags/OpenResty/
+https://blog.xiaomingclassmate.dpdns.org/tags/Web%E6%9C%8D%E5%8A%A1/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%89%E5%8D%93/
 https://blog.xiaomingclassmate.dpdns.org/categories/VPS/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/
