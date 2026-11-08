@@ -6,7 +6,7 @@
   <link href="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaomingclassmate.dpdns.org/"/>
-  <updated>2026-11-08T10:32:33.514Z</updated>
+  <updated>2026-11-08T10:51:48.347Z</updated>
   <id>https://blog.xiaomingclassmate.dpdns.org/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python开发者看过来！还在为“龟速”安装包抓狂？这个“定制版”神器让你飞起来！</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/16661/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/16661/</id>
+    <published>2026-11-08T11:30:00.000Z</published>
+    <updated>2026-11-08T10:51:48.347Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你已经用过 <code>uv</code>，应该体会过它带来的包管理速度提升。但对国内用户来说，安装 <code>uv</code> 本体、下载 Python 或访问 PyPI 时仍可能被网络链路拖慢。</p><p><strong>uv-custom</strong> 是一个为国内用户准备的 <code>uv</code> 加速镜像项目，提供安装脚本，并可配置下载代理、PyPI 镜像和 Python 构建镜像。</p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250822001814601.png" alt="uv-custom"></p><p>项目地址：</p><ul><li>Gitee：<a href="https://gitee.com/jumploop/uv-custom">https://gitee.com/jumploop/uv-custom</a></li><li>GitHub：<a href="https://github.com/jumploop/uv-custom">https://github.com/jumploop/uv-custom</a></li></ul><blockquote><p><strong>版本提示：</strong> 本文截图、安装脚本和示例版本来自 2025 年 8 月。使用前请查看项目最新 Release 和 README，确认脚本地址、镜像地址和受支持的 uv 版本。</p></blockquote><h2 id="一、uv-custom-解决什么问题"><a href="#一、uv-custom-解决什么问题" class="headerlink" title="一、uv-custom 解决什么问题"></a>一、uv-custom 解决什么问题</h2><p>官方 <code>uv</code> 很快，但国内网络可能遇到三类瓶颈：</p><ol><li>从 GitHub 下载 <code>uv</code> 安装包较慢；</li><li>下载 Python 解释器较慢；</li><li>访问官方 PyPI 源不稳定。</li></ol><p><code>uv-custom</code> 提供国内可访问的安装入口，并可自动配置镜像，减少网络问题。</p><h2 id="二、快速安装"><a href="#二、快速安装" class="headerlink" title="二、快速安装"></a>二、快速安装</h2><p>进入 Gitee Release 页面：</p><p><a href="https://gitee.com/jumploop/uv-custom/releases">https://gitee.com/jumploop/uv-custom/releases</a></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250822001645573.png" alt="uv-custom Release"></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250822001708764.png" alt="选择安装脚本"></p><h3 id="macOS-Linux"><a href="#macOS-Linux" class="headerlink" title="macOS &#x2F; Linux"></a>macOS &#x2F; Linux</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -LsSf https://gitee.com/jumploop/uv-custom/releases/download/latest/uv-installer-custom.sh | sh</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250824012405468.png" alt="安装 uv-custom"></p><h3 id="Windows-PowerShell"><a href="#Windows-PowerShell" class="headerlink" title="Windows PowerShell"></a>Windows PowerShell</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">powershell <span class="literal">-ExecutionPolicy</span> Bypass <span class="literal">-c</span> <span class="string">&quot;irm https://gitee.com/jumploop/uv-custom/releases/download/latest/uv-installer-custom.ps1 | iex&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250824121256820.png" alt="PowerShell 安装 uv-custom"></p><p>安装前建议先打开脚本地址查看内容，确认地址可信。</p><h2 id="三、自定义镜像和版本"><a href="#三、自定义镜像和版本" class="headerlink" title="三、自定义镜像和版本"></a>三、自定义镜像和版本</h2><p>可以在运行安装命令前设置环境变量：</p><table><thead><tr><th>变量</th><th>用途</th><th>示例</th></tr></thead><tbody><tr><td><code>UV_DOWNLOAD_PROXY</code></td><td>下载代理</td><td><code>https://gh-proxy.com</code></td></tr><tr><td><code>UV_PYPI_MIRROR</code></td><td>PyPI 镜像</td><td><code>https://mirrors.aliyun.com/pypi/simple/</code></td></tr><tr><td><code>UV_VERSION</code></td><td>指定 uv 版本</td><td><code>0.7.19</code></td></tr></tbody></table><h3 id="macOS-Linux-示例"><a href="#macOS-Linux-示例" class="headerlink" title="macOS &#x2F; Linux 示例"></a>macOS &#x2F; Linux 示例</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export UV_DOWNLOAD_PROXY=&quot;https://gh-proxy.com&quot;</span><br><span class="line">export UV_PYPI_MIRROR=&quot;https://mirrors.aliyun.com/pypi/simple/&quot;</span><br><span class="line">export UV_VERSION=&quot;0.7.19&quot;</span><br><span class="line"></span><br><span class="line">curl -LsSf https://gitee.com/jumploop/uv-custom/releases/download/latest/uv-installer-custom.sh | sh</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250824011041014.png" alt="自定义镜像安装"></p><h3 id="Windows-PowerShell-示例"><a href="#Windows-PowerShell-示例" class="headerlink" title="Windows PowerShell 示例"></a>Windows PowerShell 示例</h3><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$env:UV_DOWNLOAD_PROXY</span>=<span class="string">&quot;https://gh-proxy.com&quot;</span></span><br><span class="line"><span class="variable">$env:UV_PYPI_MIRROR</span>=<span class="string">&quot;https://mirrors.aliyun.com/pypi/simple/&quot;</span></span><br><span class="line"><span class="variable">$env:UV_VERSION</span>=<span class="string">&quot;0.7.19&quot;</span></span><br><span class="line"></span><br><span class="line">powershell <span class="literal">-ExecutionPolicy</span> Bypass <span class="literal">-c</span> <span class="string">&quot;irm https://gitee.com/jumploop/uv-custom/releases/download/latest/uv-installer-custom.ps1 | iex&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250824011553412.png" alt="PowerShell 自定义镜像安装"></p><h2 id="四、验证安装"><a href="#四、验证安装" class="headerlink" title="四、验证安装"></a>四、验证安装</h2><p>安装后重新打开终端，执行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uv --version</span><br></pre></td></tr></table></figure><p>如果输出版本号，说明安装成功。之后可以继续使用 <code>uv pip install</code>、<code>uv venv</code>、<code>uv python install</code> 等命令。</p><h2 id="五、供应链安全提醒"><a href="#五、供应链安全提醒" class="headerlink" title="五、供应链安全提醒"></a>五、供应链安全提醒</h2><p>安装脚本和镜像会改变下载来源，请注意：</p><ol><li>只使用你信任的 Gitee、GitHub、学校或企业镜像；</li><li>不要把陌生代理地址写进全局配置；</li><li>敏感项目建议在隔离环境中测试；</li><li>如果公司有统一网络策略，先确认镜像和代理是否允许使用。</li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><code>uv-custom</code> 适合被国内网络环境卡住的用户。它能加速 <code>uv</code> 和 Python 的安装，并简化 PyPI 镜像配置。使用前请查看项目最新说明，避免用过时的脚本地址或版本参数。</p>]]></content>
+    
+    
+    <summary type="html">uv-custom 国内加速安装教程：使用 Gitee 安装脚本下载 uv，自定义下载代理、PyPI 镜像和 uv 版本，并说明供应链安全注意事项。</summary>
+    
+    
+    
+    <category term="实用教程" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="开发效率" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/"/>
+    
+    <category term="uv" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/uv/"/>
+    
+    <category term="Python" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Python/"/>
+    
+    <category term="镜像源" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E9%95%9C%E5%83%8F%E6%BA%90/"/>
+    
+    <category term="uv-custom" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/uv-custom/"/>
+    
+  </entry>
   
   <entry>
     <title>别再忍了！uv 下载慢如龟速？一招配置国内镜像，让你的 Python 体验坐上火箭！</title>

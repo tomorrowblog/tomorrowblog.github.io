@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/16661/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/15551/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/14441/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/13213/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/12358/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/11235/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/posts/35791/</loc>
     
     <lastmod>2026-11-08</lastmod>
@@ -759,6 +813,90 @@
   
   <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%8C%85%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Cloudflare-Tunnel/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/cloudflared/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Zero-Trust/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/EasyTier/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%82%E5%9C%B0%E7%BB%84%E7%BD%91/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E8%99%9A%E6%8B%9F%E5%B1%80%E5%9F%9F%E7%BD%91/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/frp/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/frpc-desktop/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/uv-custom/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/ZeroNews/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
