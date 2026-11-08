@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/25101/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/posts/24101/</loc>
     
     <lastmod>2026-11-08</lastmod>
@@ -1158,6 +1167,20 @@
   
   <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Codex/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Fast-Note-Sync/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
