@@ -236,4 +236,33 @@
     
   </entry>
   
+  <entry>
+    <title>还在对着GitHub犯愁？这个“中文翻译官”，让你的界面瞬间秒变中文！</title>
+    <link href="https://blog.xiaomingclassmate.dpdns.org/posts/48127/"/>
+    <id>https://blog.xiaomingclassmate.dpdns.org/posts/48127/</id>
+    <published>2025-09-20T05:59:56.000Z</published>
+    <updated>2026-11-08T13:25:50.008Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈喽，各位小伙伴们！我是小明同学 。👋</p><p>是不是经常在GitHub上冲浪，却总被满屏的英文搞得头大？想找个按钮、看个说明，都得先在脑子里翻译一遍，效率瞬间大打折扣？别提那些刚入门的小白了，光是看到GitHub的界面可能就望而却步了吧！</p><p>今天，咱们就来聊一个能彻底解决这个烦恼的神器——<code>github-chinese</code>！它就像是给你的GitHub装上了一个“中文翻译官”，瞬间让你的GitHub界面变得亲切又好懂！</p><p><code>github-chinese</code>项目地址：<a href="https://github.com/maboloshi/github-chinese">https://github.com/maboloshi/github-chinese</a></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920130413652.png" alt="image.png"></p><h3 id="告别“英文盲区”：github-chinese-是什么？"><a href="#告别“英文盲区”：github-chinese-是什么？" class="headerlink" title="告别“英文盲区”：github-chinese 是什么？"></a>告别“英文盲区”：<code>github-chinese</code> 是什么？</h3><p>想象一下，你打开GitHub，菜单、标题、按钮，甚至是一些常用的提示信息，全都变成了咱们熟悉的中文！是不是瞬间感觉整个世界都清晰了？没错，<code>github-chinese</code> 就是这样一个超给力的GitHub汉化插件。</p><p>它不是GitHub官方推出的中文版本（因为GitHub本身暂时还没有官方中文界面），而是一个由社区大神们创建和维护的开源项目 (GPL-3.0 license)，目的就是让全球的中文用户也能无障碍地使用GitHub。简单来说，它通过一段用户脚本，在你访问GitHub网页时，把界面上的英文元素实时翻译成中文，让你在熟悉的语言环境中，更好地探索和利用GitHub这个宝藏平台 。</p><h3 id="为什么你需要它？告别“翻译癌”！"><a href="#为什么你需要它？告别“翻译癌”！" class="headerlink" title="为什么你需要它？告别“翻译癌”！"></a>为什么你需要它？告别“翻译癌”！</h3><ol><li><p><strong>提升效率，告别卡顿！</strong><br>你是不是也有过这样的经历：想快速找到某个功能，却因为英文单词不熟悉，得反复琢磨才能点击？有了<code>github-chinese</code>，这一切都将成为过去。菜单栏 、按钮、标题等公共组件 ，全都一目了然的中文展示，让你的操作行云流水，大大提升了使用效率 。不用再为了一个英文单词而暂停思考，节省下来的时间，用来多看几个优质项目不好吗？</p></li><li><p><strong>降低门槛，小白也能轻松上手！</strong><br>对于编程新手或者英语不太好的小伙伴来说，GitHub的英文界面常常是入门的一道坎。各种专业术语，加上陌生的界面布局，很容易让人感到迷茫和挫败。而<code>github-chinese</code>就像一位贴心的向导，用中文为你指明方向，让你能够更自信、更顺畅地迈出学习的第一步。从此，GitHub不再是“高冷”的存在，而是你触手可及的开源世界！</p></li><li><p><strong>沉浸体验，更专注代码本身！</strong><br>当语言不再是障碍，你的注意力就能完全集中在代码、项目和技术交流上。你可以更轻松地阅读项目描述、参与讨论、提交问题，真正享受到开源社区的乐趣。这种沉浸式的体验，无疑会让你在技术学习和项目协作中获得更大的成就感。</p></li></ol><h3 id="“翻译官”上岗，其实就几步！"><a href="#“翻译官”上岗，其实就几步！" class="headerlink" title="“翻译官”上岗，其实就几步！"></a>“翻译官”上岗，其实就几步！</h3><p>你可能会问，这么厉害的插件，安装起来会不会很麻烦？嘿，别担心，它比你想象的要简单得多，只需简单2步就能搞定！</p><p>它的工作原理是基于用户脚本管理器来实现的 。你只需要在你的浏览器上安装一个用户脚本管理器，比如大名鼎鼎的 <strong>Tampermonkey</strong>（油猴）或者 <strong>Violentmonkey</strong>，然后把<code>github-chinese</code>的脚本添加进去，刷新一下GitHub页面，duang！你的GitHub就变成中文啦！</p><h4 id="💻-安装指南"><a href="#💻-安装指南" class="headerlink" title="💻 安装指南"></a>💻 安装指南</h4><ol><li>安装用户脚本管理器：<ul><li>推荐：<a href="http://tampermonkey.net/" title="篡改猴">Tampermonkey</a></li></ul></li><li><strong>Chrome &#x2F; Chromium 内核浏览器，请务必开启 “扩展程序” 管理中的 “开发者模式”</strong></li><li>选择安装源：<ul><li><a href="https://github.com/maboloshi/github-chinese/raw/gh-pages/main.user.js" title="GitHub 中文化插件 - GitHub 源">GitHub 源【开发版】</a></li><li><a href="https://greasyfork.org/scripts/435208-github-%E4%B8%AD%E6%96%87%E5%8C%96%E6%8F%92%E4%BB%B6/code/GitHub%20%E4%B8%AD%E6%96%87%E5%8C%96%E6%8F%92%E4%BB%B6.user.js" title="GitHub 中文化插件 - GreasyFork 源">GreasyFork 源【稳定版】</a></li></ul></li><li>刷新页面后，插件即可生效</li><li>必要时，重启浏览器</li></ol><p><strong>版本说明</strong>：</p><ul><li>🚀 开发版：实时更新，每周五自动更新词库</li><li>🛡️ 稳定版：每周一同步开发版词库，更稳定</li></ul><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920132041863.png" alt="image.png"><br><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920132209769.png" alt="image.png"></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920133140464.png" alt="image.png"><br><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920133237348.png" alt="image.png"></p><p>这整个过程，就像给你的浏览器装了个小插件，然后激活一下它的“翻译功能”，非常傻瓜式操作，没有任何复杂的设置。对于新手来说，简直是福音！</p><h4 id="🖼️-效果预览"><a href="#🖼️-效果预览" class="headerlink" title="🖼️ 效果预览"></a>🖼️ 效果预览</h4><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920132917358.png" alt="image.png"></p><p><img src="https://cdn.jsdelivr.net/gh/jumplooper/images/image/20250920132829113.png" alt="image.png"></p><h3 id="谁是幕后英雄？开源的力量！"><a href="#谁是幕后英雄？开源的力量！" class="headerlink" title="谁是幕后英雄？开源的力量！"></a>谁是幕后英雄？开源的力量！</h3><p><code>github-chinese</code>之所以能这么好用，离不开广大的开源社区。它是一个完全开源的项目，这意味着任何人都可以查看它的代码、提交改进建议，甚至贡献自己的翻译。正是这种开放和协作的精神，让这个插件能够不断地完善和更新，为我们提供更好的汉化体验。每一次你看到更准确、更贴切的中文翻译，背后都可能是无数热心开发者默默付出的结果。</p><h3 id="总结一下：你的GitHub，你做主！"><a href="#总结一下：你的GitHub，你做主！" class="headerlink" title="总结一下：你的GitHub，你做主！"></a>总结一下：你的GitHub，你做主！</h3><p>如果你还在为GitHub的英文界面而感到困扰，那真的强烈建议你试试<code>github-chinese</code>这个神器 。它不仅能让你的GitHub使用体验直线上升，还能帮助你更快地融入开源世界，真正享受到技术带来的乐趣。</p><p>别再犹豫啦！动动手指，给你的GitHub换个“中文皮肤”吧！你会发现，原来GitHub可以这么亲切，这么好用！快去试试，让你的编程之路更加顺畅！</p>]]></content>
+    
+    
+    <summary type="html">GitHub 中文界面插件 github-chinese 的安装与使用教程：通过 Tampermonkey 或 Violentmonkey 汉化菜单、按钮和提示信息。</summary>
+    
+    
+    
+    <category term="效率工具" scheme="https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/GitHub/"/>
+    
+    <category term="GitHub汉化" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/GitHub%E6%B1%89%E5%8C%96/"/>
+    
+    <category term="Tampermonkey" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/Tampermonkey/"/>
+    
+    <category term="浏览器脚本" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E8%84%9A%E6%9C%AC/"/>
+    
+    <category term="开源工具" scheme="https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
 </feed>
