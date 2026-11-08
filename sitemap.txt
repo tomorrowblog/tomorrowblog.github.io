@@ -1,3 +1,4 @@
+https://blog.xiaomingclassmate.dpdns.org/posts/73842/
 https://blog.xiaomingclassmate.dpdns.org/manifest.json
 https://blog.xiaomingclassmate.dpdns.org/posts/61827/
 https://blog.xiaomingclassmate.dpdns.org/posts/35016/
@@ -64,6 +65,11 @@ https://blog.xiaomingclassmate.dpdns.org/tags/%E9%9A%90%E7%A7%81/
 https://blog.xiaomingclassmate.dpdns.org/tags/RackNerd/
 https://blog.xiaomingclassmate.dpdns.org/tags/KVM/
 https://blog.xiaomingclassmate.dpdns.org/tags/%E5%B9%B4%E4%BB%98/
+https://blog.xiaomingclassmate.dpdns.org/tags/%E5%9B%BE%E5%BA%8A/
+https://blog.xiaomingclassmate.dpdns.org/tags/GitHub/
+https://blog.xiaomingclassmate.dpdns.org/tags/PicGo/
+https://blog.xiaomingclassmate.dpdns.org/tags/%E8%87%AA%E5%AA%92%E4%BD%93/
+https://blog.xiaomingclassmate.dpdns.org/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E5%AE%89%E5%8D%93/
 https://blog.xiaomingclassmate.dpdns.org/categories/VPS/
 https://blog.xiaomingclassmate.dpdns.org/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/
