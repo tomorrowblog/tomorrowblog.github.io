@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/48372/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/posts/57124/</loc>
     
     <lastmod>2026-11-08</lastmod>
@@ -683,6 +692,20 @@
   
   <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/tags/HTTPS/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Sun-Panel/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%AF%BC%E8%88%AA%E9%9D%A2%E6%9D%BF/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
