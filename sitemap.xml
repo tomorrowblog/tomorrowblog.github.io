@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/posts/21101/</loc>
+    
+    <lastmod>2026-11-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/posts/20091/</loc>
     
     <lastmod>2026-11-08</lastmod>
@@ -996,6 +1005,41 @@
   
   <url>
     <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Selkies/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/Umi-OCR/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/OCR/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E7%A6%BB%E7%BA%BF%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xiaomingclassmate.dpdns.org/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
