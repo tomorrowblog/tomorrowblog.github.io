@@ -1,1 +1,38 @@
-{"id":"/","name":"小明同学","short_name":"小明同学","description":"记录 Linux、Docker、VPS、NAS、AI 工具与自建服务的实践笔记。","lang":"zh-CN","dir":"ltr","start_url":"/","scope":"/","display":"standalone","orientation":"any","background_color":"#ffffff","theme_color":"#2F7D6D","categories":["blog","technology"],"icons":[{"src":"/img/pwa-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/img/pwa-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"/img/pwa-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
+{
+  "id": "/",
+  "name": "小明同学",
+  "short_name": "小明同学",
+  "description": "记录 Linux、Docker、VPS、NAS、AI 工具与自建服务的实践笔记。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#2F7D6D",
+  "categories": [
+    "blog",
+    "technology"
+  ],
+  "icons": [
+    {
+      "src": "/img/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
