@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/12101/</loc>
+    <loc>https://xiaomingclassmate.com/tools/json/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/tools/clock/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/tools/base64/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -20,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/1698/</loc>
+    <loc>https://xiaomingclassmate.com/posts/14441/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -29,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/53591/</loc>
+    <loc>https://xiaomingclassmate.com/posts/28305/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/52327/</loc>
+    <loc>https://xiaomingclassmate.com/posts/24680/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/26258/</loc>
+    <loc>https://xiaomingclassmate.com/posts/16661/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -56,34 +74,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/19991/</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/23175/</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/20091/</loc>
-    
-    <lastmod>2026-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/7996/</loc>
+    <loc>https://xiaomingclassmate.com/posts/35791/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -101,6 +92,24 @@
   </url>
   
   <url>
+    <loc>https://xiaomingclassmate.com/posts/48372/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/35016/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaomingclassmate.com/posts/44030/</loc>
     
     <lastmod>2026-11-12</lastmod>
@@ -110,7 +119,151 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/28305/</loc>
+    <loc>https://xiaomingclassmate.com/posts/61827/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/17771/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/23101/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/69317/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/18881/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/57124/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/20091/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/24101/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/7996/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/23175/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/19991/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/22101/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/42618/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/52327/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/52218/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/26258/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/73842/</loc>
     
     <lastmod>2026-11-12</lastmod>
     
@@ -137,27 +290,99 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/tools/base64/</loc>
+    <loc>https://xiaomingclassmate.com/posts/58421/</loc>
     
-    <lastmod>2026-11-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/tools/json/</loc>
-    
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/tools/clock/</loc>
+    <loc>https://xiaomingclassmate.com/posts/12358/</loc>
     
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/11235/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/25101/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/15551/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/53591/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/19677/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/39394/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/13213/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/1698/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaomingclassmate.com/posts/12101/</loc>
+    
+    <lastmod>2026-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -173,232 +398,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/posts/61827/</loc>
-    
-    <lastmod>2026-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/39394/</loc>
-    
-    <lastmod>2026-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaomingclassmate.com/posts/48129/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/14441/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/24680/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/16661/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/35791/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/48372/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/35016/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/17771/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/23101/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/69317/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/18881/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/57124/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/24101/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/22101/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/42618/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/52218/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/73842/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/58421/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/12358/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/11235/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/25101/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/15551/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/19677/</loc>
-    
-    <lastmod>2026-11-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/posts/13213/</loc>
     
     <lastmod>2026-11-08</lastmod>
     
@@ -445,13 +445,6 @@
 
   
   <url>
-    <loc>https://xiaomingclassmate.com/categories/%E5%AE%89%E5%8D%93/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -473,13 +466,6 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/categories/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaomingclassmate.com/categories/Docker/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -494,21 +480,7 @@
   </url>
   
   <url>
-    <loc>https://xiaomingclassmate.com/categories/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaomingclassmate.com/categories/NAS/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaomingclassmate.com/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, 小明同学</rights>
   <subtitle>分类：实用教程</subtitle>
   <title>小明同学 - 实用教程</title>
-  <updated>2026-11-08T12:56:40.775Z</updated>
+  <updated>2026-11-12T12:11:58.566Z</updated>
   <entry>
     <author>
       <name>小明同学</name>
@@ -25,9 +25,9 @@
     <id>https://xiaomingclassmate.com/posts/52218/</id>
     <link href="https://xiaomingclassmate.com/posts/52218/"/>
     <published>2026-01-25T08:07:55.000Z</published>
-    <summary>注册 Gmail 邮箱时绕过手机号验证的安卓端图文操作教程。</summary>
+    <summary>注册 Gmail 邮箱时处理手机号验证的安卓端图文操作教程，整理系统语言、客户端环境和注册流程中的关键步骤，并提示账号安全与失败重试注意事项。</summary>
     <title>2026年如何注册谷歌邮箱——绕过手机号验证（超简单！）</title>
-    <updated>2026-11-08T12:56:40.775Z</updated>
+    <updated>2026-11-12T12:11:58.566Z</updated>
   </entry>
   <entry>
     <author>
@@ -43,9 +43,9 @@
     <id>https://xiaomingclassmate.com/posts/35016/</id>
     <link href="https://xiaomingclassmate.com/posts/35016/"/>
     <published>2026-01-19T12:54:31.000Z</published>
-    <summary>SMS-Activate 旧余额迁移到新平台的操作步骤与网页报错处理方法。</summary>
+    <summary>SMS-Activate 旧余额迁移到新平台的操作步骤与网页报错处理说明，整理转移入口、余额确认、失败原因和排查顺序，避免重复操作造成损失。</summary>
     <title>【好消息！】余额又回来了 ！ 接码平台 SMS-Activate 余额可以转移到新平台使用</title>
-    <updated>2026-11-08T12:57:10.047Z</updated>
+    <updated>2026-11-12T12:12:46.185Z</updated>
   </entry>
   <entry>
     <author>
@@ -65,7 +65,7 @@
     <published>2025-12-17T15:17:25.000Z</published>
     <summary>GitHub Actions + Docker Hub 自动化构建与推送教程：配置 Secrets、多架构 Buildx、GHCR、镜像签名和触发规则。</summary>
     <title>别再本地 docker build 了！教你用 GitHub Actions 搭建全自动流水线，真香</title>
-    <updated>2026-11-12T08:23:15.769Z</updated>
+    <updated>2026-11-12T12:11:49.990Z</updated>
   </entry>
   <entry>
     <author>
@@ -85,7 +85,7 @@
     <published>2025-08-24T04:45:21.000Z</published>
     <summary>uv-custom 国内加速安装教程：使用 Gitee 安装脚本下载 uv，自定义下载代理、PyPI 镜像和 uv 版本，并说明供应链安全注意事项。</summary>
     <title>Python开发者看过来！还在为“龟速”安装包抓狂？这个“定制版”神器让你飞起来！</title>
-    <updated>2026-11-08T12:57:17.707Z</updated>
+    <updated>2026-11-12T12:12:58.337Z</updated>
   </entry>
   <entry>
     <author>
@@ -105,7 +105,7 @@
     <published>2025-07-16T13:05:49.000Z</published>
     <summary>UV 国内镜像配置教程：使用 --default-index、UV_DEFAULT_INDEX 环境变量和 pyproject.toml 配置清华源，并验证 uv 实际下载地址。</summary>
     <title>别再忍了！uv 下载慢如龟速？一招配置国内镜像，让你的 Python 体验坐上火箭！</title>
-    <updated>2026-11-08T12:57:16.203Z</updated>
+    <updated>2026-11-12T12:12:56.105Z</updated>
   </entry>
   <entry>
     <author>
@@ -125,7 +125,7 @@
     <published>2025-07-12T05:34:20.000Z</published>
     <summary>UV Python 包管理器入门：安装 uv、创建虚拟环境、使用 uv pip、锁定依赖、管理 Python 版本和项目工作流，并说明迁移注意事项。</summary>
     <title>告别 Pip 痛点！UV：新一代 Python 包管理神器，速度快到飞起！</title>
-    <updated>2026-11-08T12:57:19.639Z</updated>
+    <updated>2026-11-12T12:12:59.677Z</updated>
   </entry>
   <entry>
     <author>
@@ -145,7 +145,7 @@
     <published>2025-05-22T03:49:37.000Z</published>
     <summary>it-tools 在线工具箱介绍与 Docker 部署教程，涵盖 JSON、Base64、URL、时间戳、哈希、UUID 等常用开发工具，附自建方法与安全注意事项。</summary>
     <title>it-tools：程序员的瑞士军刀，你的在线工具箱！</title>
-    <updated>2026-11-08T12:56:44.727Z</updated>
+    <updated>2026-11-12T12:12:05.657Z</updated>
   </entry>
   <entry>
     <author>
@@ -165,7 +165,7 @@
     <published>2025-05-10T05:02:36.000Z</published>
     <summary>Nginx Proxy Manager 反向代理教程：使用 Docker 部署、修改默认密码、配置域名、SSL 证书、WebSockets 与 Proxy Host，附安全注意事项。</summary>
     <title>Nginx Proxy Manager：告别繁琐配置，轻松管理你的反向代理！</title>
-    <updated>2026-11-08T12:56:58.279Z</updated>
+    <updated>2026-11-12T12:12:21.581Z</updated>
   </entry>
   <entry>
     <author>
@@ -185,7 +185,7 @@
     <published>2025-04-19T03:13:42.000Z</published>
     <summary>Obsidian 图床配置教程：使用 PicList、GitHub 和 jsDelivr 自动上传图片，包含细粒度 Token、插件设置、缓存与备份注意事项。</summary>
     <title>Obsidian图床最佳实践：3分钟配置PicList + GitHub + jsDelivr！</title>
-    <updated>2026-11-08T12:57:01.787Z</updated>
+    <updated>2026-11-12T12:12:24.341Z</updated>
   </entry>
   <entry>
     <author>
@@ -204,7 +204,7 @@
     <published>2025-04-10T10:22:57.000Z</published>
     <summary>Git 入门教程：了解仓库、工作区、暂存区和分支等核心概念，掌握初始化、提交、查看状态、分支合并与远程推送等常用操作。</summary>
     <title>Git 入门：版本控制，高效协作</title>
-    <updated>2026-11-08T12:56:34.603Z</updated>
+    <updated>2026-11-12T12:11:48.150Z</updated>
   </entry>
   <entry>
     <author>
@@ -224,6 +224,6 @@
     <published>2025-03-30T11:48:09.000Z</published>
     <summary>基于 GitHub 仓库和 PicGo 搭建零成本图床的完整教程：创建公开仓库、配置细粒度 Token、生成 CDN 链接、压缩图片、备份与常见故障排查。</summary>
     <title>零成本搭建永久图床！Github+PicGo保姆级教程，自媒体人效率翻倍秘籍</title>
-    <updated>2026-11-08T12:56:36.019Z</updated>
+    <updated>2026-11-12T12:11:54.734Z</updated>
   </entry>
 </feed>
