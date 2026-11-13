@@ -46,8 +46,8 @@
     <link href="https://xiaomingclassmate.com/posts/17771/"/>
     <published>2025-09-30T14:08:10.000Z</published>
     <summary>OpenResty Manager 部署教程：使用 Docker 安装可视化管理面板，配置 SSL、应用、上游和站点，并说明管理端口与默认密码安全。</summary>
-    <title>告别Nginx“配置地狱”！OpenResty Manager：可视化+高性能+安全，你的Web服务“管家”！</title>
-    <updated>2026-11-12T12:12:27.713Z</updated>
+    <title>OpenResty Manager：可视化配置 Nginx 与反向代理</title>
+    <updated>2026-11-13T06:04:59.088Z</updated>
   </entry>
   <entry>
     <author>
