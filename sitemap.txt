@@ -1,3 +1,10 @@
+https://xiaomingclassmate.com/tools/base64/
+https://xiaomingclassmate.com/tools/clock/
+https://xiaomingclassmate.com/tools/json/
+https://xiaomingclassmate.com/friends/
+https://xiaomingclassmate.com/tags/
+https://xiaomingclassmate.com/categories/
+https://xiaomingclassmate.com/about/
 https://xiaomingclassmate.com/posts/59636/
 https://xiaomingclassmate.com/posts/22101/
 https://xiaomingclassmate.com/posts/21101/
@@ -21,9 +28,6 @@ https://xiaomingclassmate.com/posts/19677/
 https://xiaomingclassmate.com/posts/58421/
 https://xiaomingclassmate.com/posts/48372/
 https://xiaomingclassmate.com/posts/18881/
-https://xiaomingclassmate.com/tools/json/
-https://xiaomingclassmate.com/tools/clock/
-https://xiaomingclassmate.com/tools/base64/
 https://xiaomingclassmate.com/posts/14441/
 https://xiaomingclassmate.com/posts/24680/
 https://xiaomingclassmate.com/posts/16661/
@@ -41,11 +45,7 @@ https://xiaomingclassmate.com/posts/11235/
 https://xiaomingclassmate.com/posts/15551/
 https://xiaomingclassmate.com/posts/39394/
 https://xiaomingclassmate.com/posts/13213/
-https://xiaomingclassmate.com/friends/
 https://xiaomingclassmate.com/posts/48129/
-https://xiaomingclassmate.com/about/
-https://xiaomingclassmate.com/categories/
-https://xiaomingclassmate.com/tags/
 https://xiaomingclassmate.com/
 https://xiaomingclassmate.com/categories/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/
 https://xiaomingclassmate.com/categories/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/
